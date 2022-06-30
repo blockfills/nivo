@@ -8,7 +8,7 @@
  */
 import { scaleOrdinal } from 'd3-scale'
 import { schemeSet3 } from 'd3-scale-chromatic'
-import { nivoCategoricalColors } from '../lib/colors.js'
+import { nivoCategoricalColors } from '../lib/colors/index.js'
 
 // motion
 export const defaultAnimate = true

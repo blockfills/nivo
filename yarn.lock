@@ -1994,8 +1994,11 @@ __metadata:
     "@nivo/recompose": "workspace:*"
     "@nivo/tooltip": "workspace:*"
     "@react-spring/web": 9.3.1
+    "@types/d3-format": ^1.4.1
     "@types/d3-shape": ^2.0.0
+    "@types/d3-time-format": ^3.0.0
     "@types/lodash": ^4.14.170
+    "@types/prop-types": ^15.7.5
     "@types/react": ^18.0.14
     d3-color: ^2.0.0
     d3-format: ^1.4.4

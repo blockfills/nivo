@@ -1,11 +1,18 @@
 export const TWO_PI = Math.PI * 2
 
+/** @param {number} degrees */
 export const degreesToRadians = degrees => (degrees * Math.PI) / 180
 
+/** @param {number} radians */
 export const radiansToDegrees = radians => (180 * radians) / Math.PI
 
+/** @param {{ endAngle: number; startAngle: number }} arc */
 export const midAngle = arc => arc.startAngle + (arc.endAngle - arc.startAngle) / 2
 
+/**
+ * @param {number} angle
+ * @param {number} distance
+ */
 export const positionFromAngle = (angle, distance) => ({
     x: Math.cos(angle) * distance,
     y: Math.sin(angle) * distance,
@@ -27,6 +34,7 @@ export const absoluteAngleDegrees = angle => {
     return absAngle
 }
 
+/** @param {number} angle */
 export const absoluteAngleRadians = angle => angle - TWO_PI * Math.floor((angle + Math.PI) / TWO_PI)
 
 /**

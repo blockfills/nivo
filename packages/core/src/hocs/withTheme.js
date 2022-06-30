@@ -8,7 +8,7 @@
  */
 import { compose, setPropTypes, withPropsOnChange } from '@nivo/recompose'
 import PropTypes from 'prop-types'
-import { defaultTheme, extendDefaultTheme } from '../theming.js'
+import { defaultTheme, extendDefaultTheme } from '../theming/index.js'
 
 /**
  * This HOC watch theme prop change

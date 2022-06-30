@@ -8,7 +8,7 @@
  */
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useTheme } from '../../../theming.js'
+import { useTheme } from '../../../theming/index.js'
 
 /**
  *

@@ -9,6 +9,10 @@
 
 export * from './detect.js'
 
+/**
+ * @param {Element} el
+ * @param {import('react').MouseEvent} event
+ */
 export const getRelativeCursor = (el, event) => {
     const { clientX, clientY } = event
     const bounds = el.getBoundingClientRect()

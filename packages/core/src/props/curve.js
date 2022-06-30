@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import without from 'lodash/without'
+import without from 'lodash/without.js'
 import {
     curveBasis,
     curveBasisClosed,

@@ -15,8 +15,8 @@ import {
     Tooltip,
 } from '@nivo/tooltip'
 import noop from '../lib/noop.js'
-import { ThemeProvider } from '../theming.js'
-import { MotionConfigProvider } from '../motion.js'
+import { ThemeProvider } from '../theming/index.js'
+import { MotionConfigProvider } from '../motion/index.js'
 import { ConditionalWrapper } from './ConditionalWrapper.js'
 
 const containerStyle = {

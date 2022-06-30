@@ -8,9 +8,9 @@
  */
 import { compose, setPropTypes, defaultProps, withPropsOnChange } from '@nivo/recompose'
 import PropTypes from 'prop-types'
-import isEqual from 'lodash/isEqual'
-import { marginPropType } from '../props.js'
-import { defaultMargin } from '../defaults.js'
+import isEqual from 'lodash/isEqual.js'
+import { marginPropType } from '../props/index.js'
+import { defaultMargin } from '../defaults/index.js'
 
 /**
  * This HOC watch width, height & margin props change

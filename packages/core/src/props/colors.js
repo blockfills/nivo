@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { quantizeColorScalesKeys } from '../lib/colors.js'
+import { quantizeColorScalesKeys } from '../lib/colors/index.js'
 
 export const quantizeColorScalePropType = PropTypes.oneOfType([
     PropTypes.oneOf(quantizeColorScalesKeys),
