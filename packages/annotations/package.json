@@ -1,6 +1,6 @@
 {
   "name": "@nivo/annotations",
-  "version": "0.79.1",
+  "version": "0.79.1-patch.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/plouc/nivo.git",

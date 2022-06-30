@@ -1,6 +1,6 @@
 {
   "name": "@nivo/generators",
-  "version": "0.79.1",
+  "version": "0.79.1-patch.1",
   "description": "Data generators used for nivo-website and http API samples",
   "repository": {
     "type": "git",
