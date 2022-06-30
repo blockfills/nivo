@@ -1,6 +1,6 @@
 import { ComponentClass, ComponentType } from 'react'
 
-interface ComponentEnhancer<TInner, TOuter> {
+export interface ComponentEnhancer<TInner, TOuter> {
     (component: ComponentType<TInner>): ComponentClass<TOuter>
 }
 

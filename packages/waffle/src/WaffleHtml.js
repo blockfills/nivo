@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { createElement, Component, Fragment } from 'react'
-import partial from 'lodash/partial'
+import partial from 'lodash/partial.js'
 import { setDisplayName } from '@nivo/recompose'
 import { TransitionMotion, spring } from 'react-motion'
 import { LegacyContainer } from '@nivo/core'

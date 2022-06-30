@@ -1,6 +1,6 @@
-import random from 'lodash/random'
-import range from 'lodash/range'
-import shuffle from 'lodash/shuffle'
+import random from 'lodash/random.js'
+import range from 'lodash/range.js'
+import shuffle from 'lodash/shuffle.js'
 
 type Options = Partial<{
     size: number
