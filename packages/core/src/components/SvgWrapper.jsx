@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Defs } from './defs.js'
+import { Defs } from './defs/index.js'
 import { useTheme } from '../theming/index.js'
 
 const SvgWrapper = ({

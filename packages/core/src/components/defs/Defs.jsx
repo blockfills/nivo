@@ -8,8 +8,8 @@
  */
 import { createElement, memo } from 'react'
 import PropTypes from 'prop-types'
-import { gradientTypes } from './gradients.js'
-import { patternTypes } from './patterns.js'
+import { gradientTypes } from './gradients/index.js'
+import { patternTypes } from './patterns/index.js'
 
 export const defsMapping = {
     ...gradientTypes,

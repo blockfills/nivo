@@ -4,7 +4,7 @@ import pick from 'lodash/pick.js'
 import isEqual from 'lodash/isEqual.js'
 import get from 'lodash/get.js'
 import set from 'lodash/set.js'
-import { gradientTypes, patternTypes } from '../components/defs.js'
+import { gradientTypes, patternTypes } from '../components/defs/index.js'
 
 const gradientKeys = Object.keys(gradientTypes)
 const patternKeys = Object.keys(patternTypes)
