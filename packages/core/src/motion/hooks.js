@@ -7,6 +7,6 @@
  * file that was distributed with this source code.
  */
 import { useContext } from 'react'
-import { motionConfigContext } from './context'
+import { motionConfigContext } from './context.js'
 
 export const useMotionConfig = () => useContext(motionConfigContext)

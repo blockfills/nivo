@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { DefaultHeatMapDatum, HeatMapCanvasProps, HeatMapDatum } from './types'
-import { HeatMapCanvas } from './HeatMapCanvas'
+import { DefaultHeatMapDatum, HeatMapCanvasProps, HeatMapDatum } from './types.js'
+import { HeatMapCanvas } from './HeatMapCanvas.js'
 
 export const ResponsiveHeatMapCanvas = <
     Datum extends HeatMapDatum = DefaultHeatMapDatum,

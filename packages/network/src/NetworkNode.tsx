@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { animated, to } from '@react-spring/web'
-import { InputNode, NodeProps } from './types'
+import { InputNode, NodeProps } from './types.js'
 
 const NonMemoizedNetworkNode = <Node extends InputNode>({
     node,

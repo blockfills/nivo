@@ -1,11 +1,11 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { DefaultHeatMapDatum, HeatMap, HeatMapDatum, HeatMapSvgProps } from '@nivo/heatmap'
-import { custom } from './common'
-import { dimensions } from './commons/dimensions'
-import { inheritedColor } from './commons/colors'
-import { axes } from './common'
-import { OmitStrict } from '../types'
+import { custom } from './common.js'
+import { dimensions } from './commons/dimensions.js'
+import { inheritedColor } from './commons/colors.js'
+import { axes } from './common.js'
+import { OmitStrict } from '../types.js'
 
 export type HeatMapApiProps<
     Datum extends HeatMapDatum = DefaultHeatMapDatum,

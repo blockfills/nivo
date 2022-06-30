@@ -1,12 +1,18 @@
-import { CalendarSvgProps } from './types'
+import { CalendarSvgProps } from './types.js'
 import { Container, SvgWrapper, useTheme, useDimensions, useValueFormatter } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
-import { CalendarYearLegends } from './CalendarYearLegends'
-import { CalendarMonthPath } from './CalendarMonthPath'
-import { CalendarMonthLegends } from './CalendarMonthLegends'
-import { CalendarDay } from './CalendarDay'
-import { calendarDefaultProps } from './props'
-import { useMonthLegends, useYearLegends, useCalendarLayout, useDays, useColorScale } from './hooks'
+import { CalendarYearLegends } from './CalendarYearLegends.js'
+import { CalendarMonthPath } from './CalendarMonthPath.js'
+import { CalendarMonthLegends } from './CalendarMonthLegends.js'
+import { CalendarDay } from './CalendarDay.js'
+import { calendarDefaultProps } from './props.js'
+import {
+    useMonthLegends,
+    useYearLegends,
+    useCalendarLayout,
+    useDays,
+    useColorScale,
+} from './hooks.js'
 
 const InnerCalendar = ({
     margin: partialMargin,

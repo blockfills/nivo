@@ -11,9 +11,9 @@ import range from 'lodash/range'
 import { setDisplayName } from '@nivo/recompose'
 import { isCursorInRect, getRelativeCursor, LegacyContainer } from '@nivo/core'
 import { renderLegendToCanvas } from '@nivo/legends'
-import enhance from './enhance'
-import { WaffleCanvasPropTypes } from './props'
-import WaffleCellTooltip from './WaffleCellTooltip'
+import enhance from './enhance.js'
+import { WaffleCanvasPropTypes } from './props.js'
+import WaffleCellTooltip from './WaffleCellTooltip.js'
 
 const findCellUnderCursor = (cells, cellSize, origin, margin, x, y) =>
     cells.find(cell =>

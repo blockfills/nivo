@@ -1,7 +1,7 @@
-import { mapProps } from './mapProps'
-import { setDisplayName } from './setDisplayName'
-import { InferableComponentEnhancerWithProps, Mapper } from './types'
-import { wrapDisplayName } from './wrapDisplayName'
+import { mapProps } from './mapProps.js'
+import { setDisplayName } from './setDisplayName.js'
+import { InferableComponentEnhancerWithProps, Mapper } from './types.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 export const withProps = <TInner, TOuter>(
     createProps: TInner | Mapper<TOuter, TInner>

@@ -6,8 +6,8 @@ import {
     computeMonthLegendPositions,
     bindDaysData,
     computeLayout,
-} from './compute/calendar'
-import { BBox, CalendarSvgProps, ColorScale, Year } from './types'
+} from './compute/calendar.js'
+import { BBox, CalendarSvgProps, ColorScale, Year } from './types.js'
 
 export const useCalendarLayout = ({
     width,

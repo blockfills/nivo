@@ -2,8 +2,8 @@ import { createElement, useMemo } from 'react'
 import { useSpring, useTransition, animated } from '@react-spring/web'
 import { useMotionConfig, normalizeAngle } from '@nivo/core'
 import { AnyScale, getScaleTicks } from '@nivo/scales'
-import { RadialAxisConfig, RadialAxisTickAnimatedProps } from './types'
-import { RadialAxisTick } from './RadialAxisTick'
+import { RadialAxisConfig, RadialAxisTickAnimatedProps } from './types.js'
+import { RadialAxisTick } from './RadialAxisTick.js'
 
 type RadialAxisProps = {
     type: 'start' | 'end'

@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import { degreesToRadians } from '../../../lib/polar'
+import { degreesToRadians } from '../../../lib/polar.js'
 
 export const PatternLines = memo(
     ({ id, spacing: _spacing, rotation: _rotation, background, color, lineWidth }) => {

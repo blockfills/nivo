@@ -1,2 +1,2 @@
-export * from './utils'
-export * from './labels'
+export * from './utils.js'
+export * from './labels.js'

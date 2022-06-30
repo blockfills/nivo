@@ -8,12 +8,12 @@ import {
 } from '@nivo/core'
 import { Axes, Grid } from '@nivo/axes'
 import { BoxLegendSvg } from '@nivo/legends'
-import { StreamLayers } from './StreamLayers'
-import { StreamDots } from './StreamDots'
-import { StreamSlices } from './StreamSlices'
-import { useStream } from './hooks'
-import { svgDefaultProps } from './props'
-import { StreamDatum, StreamLayerId, StreamSvgProps } from './types'
+import { StreamLayers } from './StreamLayers.js'
+import { StreamDots } from './StreamDots.js'
+import { StreamSlices } from './StreamSlices.js'
+import { useStream } from './hooks.js'
+import { svgDefaultProps } from './props.js'
+import { StreamDatum, StreamLayerId, StreamSvgProps } from './types.js'
 
 type InnerStreamProps<RawDatum extends StreamDatum> = Omit<
     StreamSvgProps<RawDatum>,

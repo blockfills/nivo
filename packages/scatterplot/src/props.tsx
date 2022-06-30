@@ -1,12 +1,12 @@
 import { CssMixBlendMode } from '@nivo/core'
-import { Node } from './Node'
-import { Tooltip } from './Tooltip'
+import { Node } from './Node.js'
+import { Tooltip } from './Tooltip.js'
 import {
     ScatterPlotCommonProps,
     ScatterPlotDatum,
     ScatterPlotLayerId,
     ScatterPlotNodeData,
-} from './types'
+} from './types.js'
 
 export const commonDefaultProps = {
     xScale: {

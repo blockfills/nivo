@@ -1,8 +1,8 @@
 import { useRef, useState, useCallback, useMemo } from 'react'
 import * as React from 'react'
 import { getRelativeCursor } from '@nivo/core'
-import { useVoronoiMesh } from './hooks'
-import { XYAccessor } from './computeMesh'
+import { useVoronoiMesh } from './hooks.js'
+import { XYAccessor } from './computeMesh.js'
 
 type MouseHandler<Datum> = (datum: Datum, event: React.MouseEvent) => void
 

@@ -15,9 +15,9 @@ import { findArcUnderCursor } from '@nivo/arcs'
 import { useInheritedColor } from '@nivo/colors'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
-import { useChord, useChordSelection, useCustomLayerProps } from './hooks'
-import { ArcDatum, ChordCanvasProps } from './types'
-import { canvasDefaultProps } from './defaults'
+import { useChord, useChordSelection, useCustomLayerProps } from './hooks.js'
+import { ArcDatum, ChordCanvasProps } from './types.js'
+import { canvasDefaultProps } from './defaults.js'
 
 const getArcFromMouseEvent = ({
     event,

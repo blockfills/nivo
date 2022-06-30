@@ -1,8 +1,8 @@
 import { StackOrder, StackOffset, AreaCurve } from '@nivo/core'
-import { StreamCommonProps, StreamLayerId } from './types'
-import { StreamDotsItem } from './StreamDotsItem'
-import { LayerTooltip } from './LayerTooltip'
-import { StackTooltip } from './StackTooltip'
+import { StreamCommonProps, StreamLayerId } from './types.js'
+import { StreamDotsItem } from './StreamDotsItem.js'
+import { LayerTooltip } from './LayerTooltip.js'
+import { StackTooltip } from './StackTooltip.js'
 
 export const defaultProps = {
     label: 'id',

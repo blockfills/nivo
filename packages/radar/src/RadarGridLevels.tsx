@@ -2,7 +2,7 @@ import { memo, SVGProps, useMemo } from 'react'
 import { lineRadial, curveLinearClosed } from 'd3-shape'
 import { animated, useSpring, to } from '@react-spring/web'
 import { useTheme, useAnimatedPath, useMotionConfig } from '@nivo/core'
-import { RadarCommonProps } from './types'
+import { RadarCommonProps } from './types.js'
 
 interface RadarGridLevelCircularProps {
     radius: number

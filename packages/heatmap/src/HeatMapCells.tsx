@@ -8,9 +8,9 @@ import {
     HeatMapDatum,
     HeatMapSvgProps,
     CellAnimatedProps,
-} from './types'
-import { HeatMapCellRect } from './HeatMapCellRect'
-import { HeatMapCellCircle } from './HeatMapCellCircle'
+} from './types.js'
+import { HeatMapCellRect } from './HeatMapCellRect.js'
+import { HeatMapCellCircle } from './HeatMapCellCircle.js'
 
 interface HeatMapCellsProps<Datum extends HeatMapDatum, ExtraProps extends object> {
     cells: ComputedCell<Datum>[]

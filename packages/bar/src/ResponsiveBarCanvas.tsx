@@ -1,5 +1,5 @@
-import { BarDatum, BarCanvasProps } from './types'
-import { BarCanvas } from './BarCanvas'
+import { BarDatum, BarCanvasProps } from './types.js'
+import { BarCanvas } from './BarCanvas.js'
 import { ForwardedRef, forwardRef } from 'react'
 import { ResponsiveWrapper } from '@nivo/core'
 

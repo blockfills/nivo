@@ -5,7 +5,7 @@ import {
     FunnelPartWithHandlers,
     FunnelAreaGenerator,
     FunnelBorderGenerator,
-} from './types'
+} from './types.js'
 
 export interface PartProps<D extends FunnelDatum> {
     part: FunnelPartWithHandlers<D>

@@ -1,5 +1,5 @@
 import { ComponentType } from 'react'
-import { setStatic } from './setStatic'
+import { setStatic } from './setStatic.js'
 
 export const setDisplayName = (
     displayName: string

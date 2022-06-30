@@ -1,4 +1,4 @@
-import { DatumWithArc, DatumWithArcAndColor, Point } from '../types'
+import { DatumWithArc, DatumWithArcAndColor, Point } from '../types.js'
 
 export interface ArcLink {
     side: 'before' | 'after'

@@ -6,7 +6,7 @@ import {
     generateWinesTastes,
     generateSankeyData,
 } from '@nivo/generators'
-import { ChartProps, ChartType, LineApiProps } from '../mappings'
+import { ChartProps, ChartType, LineApiProps } from '../mappings.js'
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']
 const moreKeys = [...keys, 'junk', 'sushi', 'ramen', 'curry', 'udon', 'bagel']

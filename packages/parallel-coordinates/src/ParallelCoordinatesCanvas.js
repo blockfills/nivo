@@ -10,8 +10,8 @@ import { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { useDimensions, useTheme, withContainer } from '@nivo/core'
 import { renderAxisToCanvas } from '@nivo/axes'
-import { commonPropTypes, commonDefaultProps } from './props'
-import { useParallelCoordinates } from './hooks'
+import { commonPropTypes, commonDefaultProps } from './props.js'
+import { useParallelCoordinates } from './hooks.js'
 
 const ParallelCoordinatesCanvas = ({
     data,

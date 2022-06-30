@@ -1,4 +1,4 @@
-import { Arc, DatumWithArc } from './types'
+import { Arc, DatumWithArc } from './types.js'
 import { useMemo } from 'react'
 
 export interface ArcTransitionModeConfig {

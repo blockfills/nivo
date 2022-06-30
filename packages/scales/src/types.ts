@@ -6,7 +6,7 @@ import {
     ScaleSymLog as D3ScaleSymLog,
     ScaleTime as D3ScaleTime,
 } from 'd3-scale'
-import { TIME_PRECISION } from './timeHelpers'
+import { TIME_PRECISION } from './timeHelpers.js'
 
 export type ScaleAxis = 'x' | 'y'
 export type OtherScaleAxis<Axis extends ScaleAxis> = Axis extends 'x' ? 'y' : 'x'

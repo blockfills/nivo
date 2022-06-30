@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { BumpDatum, BumpSerieExtraProps, BumpSvgProps, DefaultBumpDatum } from './types'
-import { Bump } from './Bump'
+import { BumpDatum, BumpSerieExtraProps, BumpSvgProps, DefaultBumpDatum } from './types.js'
+import { Bump } from './Bump.js'
 
 export const ResponsiveBump = <
     Datum extends BumpDatum = DefaultBumpDatum,

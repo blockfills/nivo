@@ -1,10 +1,10 @@
 import { createElement } from 'react'
 import { useTheme } from '@nivo/core'
 import { InheritedColorConfig, useInheritedColor } from '@nivo/colors'
-import { DatumWithArcAndColor, ArcGenerator } from './types'
-import { useArcsTransition } from './useArcsTransition'
-import { ArcTransitionMode } from './arcTransitionMode'
-import { ArcMouseHandler, ArcShape, ArcShapeProps } from './ArcShape'
+import { DatumWithArcAndColor, ArcGenerator } from './types.js'
+import { useArcsTransition } from './useArcsTransition.js'
+import { ArcTransitionMode } from './arcTransitionMode.js'
+import { ArcMouseHandler, ArcShape, ArcShapeProps } from './ArcShape.js'
 
 export type ArcComponent<Datum extends DatumWithArcAndColor> = (
     props: ArcShapeProps<Datum>

@@ -11,7 +11,7 @@ import { area, line } from 'd3-shape'
 import { curveFromProp, useTheme, useValueFormatter } from '@nivo/core'
 import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
 import { computeXYScalesForSeries } from '@nivo/scales'
-import { LineDefaultProps } from './props'
+import { LineDefaultProps } from './props.js'
 
 export const useLineGenerator = ({ curve }) => {
     return useMemo(

@@ -8,12 +8,12 @@ import {
     BumpSerieExtraProps,
     BumpSvgProps,
     DefaultBumpDatum,
-} from './types'
-import { useBump } from './hooks'
-import { bumpSvgDefaultProps } from './defaults'
-import { Line } from './Line'
-import { LinesLabels } from './LinesLabels'
-import { Points } from './Points'
+} from './types.js'
+import { useBump } from './hooks.js'
+import { bumpSvgDefaultProps } from './defaults.js'
+import { Line } from './Line.js'
+import { LinesLabels } from './LinesLabels.js'
+import { Points } from './Points.js'
 
 type InnerBumpProps<Datum extends BumpDatum, ExtraProps extends BumpSerieExtraProps> = Omit<
     BumpSvgProps<Datum, ExtraProps>,

@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import { radiansToDegrees } from '@nivo/core'
-import { DatumWithArc } from '../types'
-import { ArcLinkWithDatum } from './types'
-import { computeArcLink } from './compute'
+import { DatumWithArc } from '../types.js'
+import { ArcLinkWithDatum } from './types.js'
+import { computeArcLink } from './compute.js'
 
 /**
  * Compute links for an array of data containing arcs.

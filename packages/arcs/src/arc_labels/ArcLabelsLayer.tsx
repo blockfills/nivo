@@ -1,11 +1,11 @@
 import { createElement, useMemo } from 'react'
 import { PropertyAccessor, usePropertyAccessor, radiansToDegrees, useTheme } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
-import { useArcCentersTransition } from '../centers'
-import { ArcTransitionMode } from '../arcTransitionMode'
-import { DatumWithArcAndColor } from '../types'
-import { ArcLabelsProps } from './props'
-import { ArcLabel, ArcLabelProps } from './ArcLabel'
+import { useArcCentersTransition } from '../centers.js'
+import { ArcTransitionMode } from '../arcTransitionMode.js'
+import { DatumWithArcAndColor } from '../types.js'
+import { ArcLabelsProps } from './props.js'
+import { ArcLabel, ArcLabelProps } from './ArcLabel.js'
 
 export type ArcLabelComponent<Datum extends DatumWithArcAndColor> = (
     props: ArcLabelProps<Datum>

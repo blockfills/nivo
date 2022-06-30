@@ -1,14 +1,16 @@
-[*.js]
-indent_style = space
-indent_size = 4
-max_line_length = 100
+root = true
 
-[*.ts]
-indent_style = space
+[*]
+charset = utf-8
+end_of_line = lf
 indent_size = 4
+indent_style = space
+insert_final_newline = true
 max_line_length = 100
+trim_trailing_whitespace = true
 
-[*.tsx]
-indent_style = space
-indent_size = 4
-max_line_length = 100
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[makefile]
+indent_style = tab

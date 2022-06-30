@@ -8,11 +8,11 @@ import {
 } from '@nivo/core'
 import { ArcLabelsLayer, ArcLinkLabelsLayer } from '@nivo/arcs'
 import { InheritedColorConfig } from '@nivo/colors'
-import PieLegends from './PieLegends'
-import { useNormalizedData, usePieFromBox, usePieLayerContext } from './hooks'
-import { ComputedDatum, PieLayer, PieSvgProps, PieLayerId } from './types'
-import { defaultProps } from './props'
-import { Arcs } from './Arcs'
+import PieLegends from './PieLegends.js'
+import { useNormalizedData, usePieFromBox, usePieLayerContext } from './hooks.js'
+import { ComputedDatum, PieLayer, PieSvgProps, PieLayerId } from './types.js'
+import { defaultProps } from './props.js'
+import { Arcs } from './Arcs.js'
 
 const InnerPie = <RawDatum,>({
     data,

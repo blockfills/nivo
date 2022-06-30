@@ -3,7 +3,7 @@ import { alignBox } from '@nivo/core'
 import { timeFormat } from 'd3-time-format'
 import { timeDays, timeWeek, timeWeeks, timeMonths, timeYear } from 'd3-time'
 import { ScaleQuantize } from 'd3-scale'
-import { BBox, CalendarSvgProps, ColorScale, Datum, Year } from '../types'
+import { BBox, CalendarSvgProps, ColorScale, Datum, Year } from '../types.js'
 
 /**
  * Compute min/max values.

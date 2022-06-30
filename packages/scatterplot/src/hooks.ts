@@ -3,13 +3,13 @@ import { useValueFormatter, usePropertyAccessor } from '@nivo/core'
 import { useOrdinalColorScale } from '@nivo/colors'
 import { computeXYScalesForSeries } from '@nivo/scales'
 import { useAnnotations } from '@nivo/annotations'
-import { computePoints, getNodeSizeGenerator } from './compute'
+import { computePoints, getNodeSizeGenerator } from './compute.js'
 import {
     ScatterPlotCommonProps,
     ScatterPlotDataProps,
     ScatterPlotDatum,
     ScatterPlotNodeData,
-} from './types'
+} from './types.js'
 
 const useNodeSize = <RawDatum extends ScatterPlotDatum>(
     size: ScatterPlotCommonProps<RawDatum>['nodeSize']

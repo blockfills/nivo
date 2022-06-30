@@ -1,6 +1,6 @@
 import { Annotation } from '@nivo/annotations'
-import { ComputedDatum, SwarmPlotSvgProps } from './types'
-import { useSwarmPlotAnnotations } from './hooks'
+import { ComputedDatum, SwarmPlotSvgProps } from './types.js'
+import { useSwarmPlotAnnotations } from './hooks.js'
 
 export const SwarmPlotAnnotations = <RawDatum,>({
     nodes,

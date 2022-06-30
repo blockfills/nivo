@@ -1,6 +1,6 @@
 import { InheritedColorConfigCustomFunction } from '@nivo/colors'
-import { StreamLayer } from './StreamLayer'
-import { StreamCommonProps, StreamLayerData, StreamDatum } from './types'
+import { StreamLayer } from './StreamLayer.js'
+import { StreamCommonProps, StreamLayerData, StreamDatum } from './types.js'
 
 interface StreamLayersProps<RawDatum extends StreamDatum> {
     layers: StreamLayerData[]

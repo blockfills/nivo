@@ -2,7 +2,7 @@ import { createElement, useCallback } from 'react'
 import { useSpring, animated } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import { DefaultLink, DefaultNode, SankeyCommonProps, SankeyNodeDatum } from './types'
+import { DefaultLink, DefaultNode, SankeyCommonProps, SankeyNodeDatum } from './types.js'
 
 interface SankeyNodesItemProps<N extends DefaultNode, L extends DefaultLink> {
     node: SankeyNodeDatum<N, L>

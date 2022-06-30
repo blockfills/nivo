@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { Sunburst } from './Sunburst'
-import { SunburstSvgProps } from './types'
+import { Sunburst } from './Sunburst.js'
+import { SunburstSvgProps } from './types.js'
 
 type ResponsiveSunburstProps<RawDatum> = Partial<
     Omit<SunburstSvgProps<RawDatum>, 'data' | 'width' | 'height'>

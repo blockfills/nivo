@@ -3,7 +3,7 @@ import { forceSimulation, forceManyBody, forceCenter, forceLink } from 'd3-force
 import { useTheme } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
 import { AnnotationMatcher, useAnnotations } from '@nivo/annotations'
-import { commonDefaultProps } from './defaults'
+import { commonDefaultProps } from './defaults.js'
 import {
     InputLink,
     InputNode,
@@ -13,7 +13,7 @@ import {
     ComputedLink,
     TransientNode,
     TransientLink,
-} from './types'
+} from './types.js'
 
 const useDerivedProp = <Target, Output extends string | number>(
     instruction: DerivedProp<Target, Output>

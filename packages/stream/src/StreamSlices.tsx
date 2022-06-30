@@ -1,5 +1,5 @@
-import { StreamSliceData, StreamDatum, StreamCommonProps } from './types'
-import { StreamSlicesItem } from './StreamSlicesItem'
+import { StreamSliceData, StreamDatum, StreamCommonProps } from './types.js'
+import { StreamSlicesItem } from './StreamSlicesItem.js'
 
 interface StreamSlicesProps<RawDatum extends StreamDatum> {
     slices: StreamSliceData[]

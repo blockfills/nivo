@@ -8,7 +8,7 @@
  */
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import LinesItem from './LinesItem'
+import LinesItem from './LinesItem.js'
 
 const Lines = ({ lines, lineGenerator, lineWidth }) => {
     return lines

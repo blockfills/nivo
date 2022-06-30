@@ -1,11 +1,11 @@
 import { useMemo } from 'react'
-import { bindAnnotations, computeAnnotation } from './compute'
+import { bindAnnotations, computeAnnotation } from './compute.js'
 import {
     AnnotationDimensionsGetter,
     AnnotationMatcher,
     AnnotationPositionGetter,
     BoundAnnotation,
-} from './types'
+} from './types.js'
 
 /**
  * Bind annotations to a dataset.

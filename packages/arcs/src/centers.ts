@@ -1,14 +1,14 @@
 import { useMemo } from 'react'
-import { useTransition, to, SpringValue } from '@react-spring/web'
+import { useTransition, to, PickAnimated, SpringValue, TransitionFn } from '@react-spring/web'
 import {
     // @ts-ignore
     midAngle,
     positionFromAngle,
     useMotionConfig,
 } from '@nivo/core'
-import { Arc, DatumWithArc, Point } from './types'
-import { filterDataBySkipAngle } from './utils'
-import { ArcTransitionMode, TransitionExtra, useArcTransitionMode } from './arcTransitionMode'
+import { Arc, DatumWithArc, Point } from './types.js'
+import { filterDataBySkipAngle } from './utils.js'
+import { ArcTransitionMode, TransitionExtra, useArcTransitionMode } from './arcTransitionMode.js'
 
 export const computeArcCenter = (arc: Arc, offset: number): Point => {
     const angle = midAngle(arc) - Math.PI / 2
@@ -37,6 +37,22 @@ export const interpolateArcCenter =
             }
         )
 
+export interface UseArcCentersTransition<Datum extends DatumWithArc, ExtraProps = unknown> {
+    interpolate: ReturnType<typeof interpolateArcCenter>
+    transition: TransitionFn<
+        Datum,
+        PickAnimated<
+            {
+                progress: number
+                startAngle: number
+                endAngle: number
+                innerRadius: number
+                outerRadius: number
+            } & ExtraProps
+        >
+    >
+}
+
 export const useArcCentersTransition = <Datum extends DatumWithArc, ExtraProps = unknown>(
     data: Datum[],
     // define where the centers should be placed,
@@ -46,7 +62,7 @@ export const useArcCentersTransition = <Datum extends DatumWithArc, ExtraProps =
     offset = 0.5,
     mode: ArcTransitionMode = 'innerRadius',
     extra?: TransitionExtra<Datum, ExtraProps>
-) => {
+): UseArcCentersTransition<Datum, ExtraProps> => {
     const { animate, config: springConfig } = useMotionConfig()
 
     const phases = useArcTransitionMode<Datum, ExtraProps>(mode, extra)
@@ -72,7 +88,7 @@ export const useArcCentersTransition = <Datum extends DatumWithArc, ExtraProps =
     })
 
     return {
-        transition,
+        transition: transition as never,
         interpolate: interpolateArcCenter(offset),
     }
 }

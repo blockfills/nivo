@@ -1,7 +1,7 @@
 import { Component, createFactory } from 'react'
-import { setDisplayName } from './setDisplayName'
-import { InferableComponentEnhancer, PredicateDiff } from './types'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { InferableComponentEnhancer, PredicateDiff } from './types.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 export const shouldUpdate =
     <TProps extends Record<string, unknown>>(
@@ -17,7 +17,6 @@ export const shouldUpdate =
             }
 
             render() {
-                // @ts-expect-error not type-able
                 return factory(this.props)
             }
         }

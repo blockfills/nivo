@@ -1,7 +1,7 @@
 import { ArcTransitionMode } from '@nivo/arcs'
 import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { SunburstTooltip } from './SunburstTooltip'
-import { SunburstLayerId } from './types'
+import { SunburstTooltip } from './SunburstTooltip.js'
+import { SunburstLayerId } from './types.js'
 
 export const defaultProps = {
     id: 'id',

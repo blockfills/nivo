@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { StreamDatum, StreamSvgProps } from './types'
-import { Stream } from './Stream'
+import { StreamDatum, StreamSvgProps } from './types.js'
+import { Stream } from './Stream.js'
 
 export const ResponsiveStream = <RawDatum extends StreamDatum>(
     props: Omit<StreamSvgProps<RawDatum>, 'height' | 'width'>

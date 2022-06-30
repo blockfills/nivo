@@ -1,5 +1,5 @@
 import { animated } from '@react-spring/web'
-import { InputLink, InputNode, LinkProps } from './types'
+import { InputLink, InputNode, LinkProps } from './types.js'
 import { memo } from 'react'
 
 const NonMemoizedNetworkLink = <Node extends InputNode, Link extends InputLink>({

@@ -1,3 +1,3 @@
-export * from './mappings'
-export { renderChart } from './renderer'
-export { samples } from './samples'
+export * from './mappings.js'
+export { renderChart } from './renderer.js'
+export { samples } from './samples.js'

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import ParallelCoordinates from './ParallelCoordinates'
+import ParallelCoordinates from './ParallelCoordinates.js'
 
 const ResponsiveParallelCoordinates = props => (
     <ResponsiveWrapper>

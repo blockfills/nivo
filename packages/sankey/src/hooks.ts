@@ -3,7 +3,7 @@ import { cloneDeep } from 'lodash'
 import { sankey as d3Sankey } from 'd3-sankey'
 import { useTheme, usePropertyAccessor, useValueFormatter } from '@nivo/core'
 import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
-import { sankeyAlignmentFromProp } from './props'
+import { sankeyAlignmentFromProp } from './props.js'
 import {
     DefaultLink,
     DefaultNode,
@@ -13,7 +13,7 @@ import {
     SankeyLinkDatum,
     SankeyNodeDatum,
     SankeySortFunction,
-} from './types'
+} from './types.js'
 
 const getId = <N extends DefaultNode>(node: N) => node.id
 

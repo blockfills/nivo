@@ -1,4 +1,4 @@
-import { BarCanvasLayer, BarCanvasProps, BarDatum, ComputedBarDatum } from './types'
+import { BarCanvasLayer, BarCanvasProps, BarDatum, ComputedBarDatum } from './types.js'
 import {
     Container,
     Margin,
@@ -16,7 +16,7 @@ import {
     useMemo,
     useRef,
 } from 'react'
-import { canvasDefaultProps } from './props'
+import { canvasDefaultProps } from './props.js'
 import {
     renderAnnotationsToCanvas,
     useAnnotations,
@@ -25,7 +25,7 @@ import {
 import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
-import { useBar } from './hooks'
+import { useBar } from './hooks.js'
 
 type InnerBarCanvasProps<RawDatum extends BarDatum> = Omit<
     BarCanvasProps<RawDatum>,

@@ -1,5 +1,5 @@
 import { createElement } from 'react'
-import { BumpDatum, BumpPoint, BumpPointComponent, BumpSerieExtraProps } from './types'
+import { BumpDatum, BumpPoint, BumpPointComponent, BumpSerieExtraProps } from './types.js'
 
 interface PointsProps<Datum extends BumpDatum, ExtraProps extends BumpSerieExtraProps> {
     points: BumpPoint<Datum, ExtraProps>[]

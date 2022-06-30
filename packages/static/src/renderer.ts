@@ -1,7 +1,7 @@
 import { pick } from 'lodash'
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
-import { ChartProps, chartsMapping, ChartType } from './mappings'
+import { ChartProps, chartsMapping, ChartType } from './mappings.js'
 
 const staticProps = {
     animate: false,

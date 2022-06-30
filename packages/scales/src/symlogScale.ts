@@ -1,5 +1,5 @@
 import { scaleSymlog } from 'd3-scale'
-import { ComputedSerieAxis, ScaleAxis, ScaleSymlog, ScaleSymlogSpec } from './types'
+import { ComputedSerieAxis, ScaleAxis, ScaleSymlog, ScaleSymlogSpec } from './types.js'
 
 export const createSymlogScale = (
     { constant = 1, min = 'auto', max = 'auto', reverse = false }: ScaleSymlogSpec,

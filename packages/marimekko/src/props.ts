@@ -1,4 +1,4 @@
-import { LayerId, Layout, OffsetId } from './types'
+import { LayerId, Layout, OffsetId } from './types.js'
 
 export const defaultProps = {
     layout: 'vertical' as Layout,

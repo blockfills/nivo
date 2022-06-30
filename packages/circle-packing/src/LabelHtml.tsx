@@ -1,7 +1,7 @@
 import { animated } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
-import { LabelProps } from './types'
-import { interpolatePosition, interpolateSize } from './CircleHtml'
+import { LabelProps } from './types.js'
+import { interpolatePosition, interpolateSize } from './CircleHtml.js'
 
 export const LabelHtml = <RawDatum,>({ node, label, style }: LabelProps<RawDatum>) => {
     const theme = useTheme()

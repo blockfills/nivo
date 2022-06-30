@@ -1,13 +1,13 @@
 import { createElement, Fragment, ReactNode } from 'react'
 import { Container, useDimensions } from '@nivo/core'
 import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { CirclePackingHtmlProps, CirclePackingLayerId, ComputedDatum } from './types'
-import { useCirclePacking, useCirclePackingLayerContext, useCirclePackingZoom } from './hooks'
-import { Circles } from './Circles'
-import { CircleHtml } from './CircleHtml'
-import { defaultProps } from './props'
-import { Labels } from './Labels'
-import { LabelHtml } from './LabelHtml'
+import { CirclePackingHtmlProps, CirclePackingLayerId, ComputedDatum } from './types.js'
+import { useCirclePacking, useCirclePackingLayerContext, useCirclePackingZoom } from './hooks.js'
+import { Circles } from './Circles.js'
+import { CircleHtml } from './CircleHtml.js'
+import { defaultProps } from './props.js'
+import { Labels } from './Labels.js'
+import { LabelHtml } from './LabelHtml.js'
 
 type InnerCirclePackingHtmlProps<RawDatum> = Partial<
     Omit<

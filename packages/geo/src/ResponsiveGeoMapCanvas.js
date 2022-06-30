@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import GeoMapCanvas from './GeoMapCanvas'
+import GeoMapCanvas from './GeoMapCanvas.js'
 
 const ResponsiveGeoMapCanvas = props => (
     <ResponsiveWrapper>

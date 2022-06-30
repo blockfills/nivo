@@ -2,7 +2,7 @@ import { createElement, useMemo } from 'react'
 import * as React from 'react'
 import { ArcGenerator, ArcsLayer } from '@nivo/arcs'
 import { useTooltip } from '@nivo/tooltip'
-import { ComputedDatum, CompletePieSvgProps } from './types'
+import { ComputedDatum, CompletePieSvgProps } from './types.js'
 
 interface ArcsProps<RawDatum> {
     center: [number, number]

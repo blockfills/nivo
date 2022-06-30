@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import { compose, defaultProps, setPropTypes } from '@nivo/recompose'
-import { motionPropTypes } from '../motion'
-import { defaultAnimate, defaultMotionDamping, defaultMotionStiffness } from '../defaults'
+import { motionPropTypes } from '../motion.js'
+import { defaultAnimate, defaultMotionDamping, defaultMotionStiffness } from '../defaults.js'
 
 export default () =>
     compose(

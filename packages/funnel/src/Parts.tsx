@@ -1,10 +1,10 @@
-import { Part } from './Part'
+import { Part } from './Part.js'
 import {
     FunnelPartWithHandlers,
     FunnelAreaGenerator,
     FunnelBorderGenerator,
     FunnelDatum,
-} from './types'
+} from './types.js'
 
 interface PartsProps<D extends FunnelDatum> {
     parts: FunnelPartWithHandlers<D>[]

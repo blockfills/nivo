@@ -1,5 +1,5 @@
 import { Annotation, useAnnotations } from '@nivo/annotations'
-import { BarAnnotationsProps } from './types'
+import { BarAnnotationsProps } from './types.js'
 
 export const BarAnnotations = <RawDatum,>({ bars, annotations }: BarAnnotationsProps<RawDatum>) => {
     const boundAnnotations = useAnnotations({

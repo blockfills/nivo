@@ -7,10 +7,10 @@ import {
     useDimensions,
 } from '@nivo/core'
 import { ArcLabelsLayer } from '@nivo/arcs'
-import { defaultProps } from './props'
-import { useSunburst, useSunburstLayerContext } from './hooks'
-import { SunburstSvgProps, SunburstLayerId, SunburstLayer, ComputedDatum } from './types'
-import { Arcs } from './Arcs'
+import { defaultProps } from './props.js'
+import { useSunburst, useSunburstLayerContext } from './hooks.js'
+import { SunburstSvgProps, SunburstLayerId, SunburstLayer, ComputedDatum } from './types.js'
+import { Arcs } from './Arcs.js'
 import { InheritedColorConfig } from '@nivo/colors'
 
 type InnerSunburstProps<RawDatum> = Partial<

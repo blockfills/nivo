@@ -8,7 +8,7 @@ import {
     useValueFormatter,
 } from '@nivo/core'
 import { useOrdinalColorScale } from '@nivo/colors'
-import { svgDefaultProps } from './props'
+import { svgDefaultProps } from './props.js'
 import {
     RadarColorMapping,
     RadarCommonProps,
@@ -16,7 +16,7 @@ import {
     RadarCustomLayerProps,
     RadarSvgProps,
     BoundLegendProps,
-} from './types'
+} from './types.js'
 
 export const useRadar = <D extends Record<string, unknown>>({
     data,

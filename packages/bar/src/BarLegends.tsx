@@ -1,5 +1,5 @@
 import { BoxLegendSvg } from '@nivo/legends'
-import { BarLegendProps, LegendData } from './types'
+import { BarLegendProps, LegendData } from './types.js'
 
 interface BarLegendsProps {
     width: number

@@ -1,4 +1,4 @@
-import { VoronoiDomain, VoronoiLayer } from './types'
+import { VoronoiDomain, VoronoiLayer } from './types.js'
 
 export const defaultVoronoiProps = {
     xDomain: [0, 1] as VoronoiDomain,

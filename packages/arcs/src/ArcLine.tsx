@@ -1,6 +1,6 @@
 import { animated, to, AnimatedProps } from '@react-spring/web'
 import { ExtractProps } from '@nivo/core'
-import { generateSvgArc } from './utils'
+import { generateSvgArc } from './utils.js'
 
 type ArcLineProps = {
     animated: AnimatedProps<{

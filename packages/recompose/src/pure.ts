@@ -1,8 +1,8 @@
 import { ComponentType } from 'react'
-import { setDisplayName } from './setDisplayName'
-import { shallowEqual } from './shallowEqual'
-import { shouldUpdate } from './shouldUpdate'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { shallowEqual } from './shallowEqual.js'
+import { shouldUpdate } from './shouldUpdate.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 export const pure = <TProps>(component: ComponentType<TProps>): ComponentType<TProps> => {
     const hoc = shouldUpdate((props, nextProps) => !shallowEqual(props, nextProps))

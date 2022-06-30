@@ -1,6 +1,6 @@
 import { useSprings, animated } from '@react-spring/web'
 import { useTheme, useMotionConfig } from '@nivo/core'
-import { DefaultLink, DefaultNode, SankeyCommonProps, SankeyNodeDatum } from './types'
+import { DefaultLink, DefaultNode, SankeyCommonProps, SankeyNodeDatum } from './types.js'
 
 interface SankeyLabelsProps<N extends DefaultNode, L extends DefaultLink> {
     nodes: SankeyNodeDatum<N, L>[]

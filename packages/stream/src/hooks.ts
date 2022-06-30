@@ -20,8 +20,8 @@ import {
     StreamLayerData,
     StreamLayerDatum,
     StreamSliceData,
-} from './types'
-import { defaultProps } from './props'
+} from './types.js'
+import { defaultProps } from './props.js'
 
 export const useStream = <RawDatum extends StreamDatum>({
     width,

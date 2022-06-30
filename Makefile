@@ -158,13 +158,23 @@ packages-test-cover: ##@1 packages run tests for all packages with code coverage
 
 packages-types: ##@1 packages build all package types
 	@echo "${YELLOW}Building TypeScript types for all packages${RESET}"
-	@yarn tsc -b ./tsconfig.monorepo.json
+	@yarn workspaces foreach -iptv --no-private exec /bin/sh -c " \
+        export PACKAGE=\"\$$(basename \"\$$(pwd)\")\"; \
+        if [ -f \"./tsconfig.json\" ]; \
+        then \
+            echo \"${YELLOW}Building TypeScript types for package ${WHITE}@nivo/\$${PACKAGE}${RESET}\"; \
+            yarn run -T tsc -b; \
+        else \
+            echo \"${YELLOW}Package ${WHITE}@nivo/\$${PACKAGE}${RESET}${YELLOW} does not have tsconfig, skipping\"; \
+        fi; \
+    "
 
 packages-build: packages-types ##@1 packages build all packages
 	@echo "${YELLOW}Building all packages${RESET}"
-	@find ./packages -type d -maxdepth 1 ! -path ./packages \
-        | sed 's|^./packages/||' \
-        | xargs -I '{}' sh -c '$(MAKE) package-build-{}'
+	@yarn workspaces foreach -iptv --no-private exec /bin/sh -c " \
+        export PACKAGE=\"\$$(basename \"\$$(pwd)\")\"; \
+        NODE_ENV=production BABEL_ENV=production yarn run --cwd \"$$(yarn workspace nivo exec pwd)\" rollup -c \"./conf/rollup.config.js\"; \
+    "
 
 package-types-%: ##@1 packages build a package types
 	@if [ -f "./packages/${*}/tsconfig.json" ]; \

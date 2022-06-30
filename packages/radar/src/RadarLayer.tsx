@@ -4,7 +4,7 @@ import { lineRadial, CurveFactory } from 'd3-shape'
 import { ScaleLinear } from 'd3-scale'
 import { useMotionConfig, useTheme, useAnimatedPath } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
-import { RadarCommonProps } from './types'
+import { RadarCommonProps } from './types.js'
 
 interface RadarLayerProps<D extends Record<string, unknown>> {
     data: D[]

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { defaultMargin } from '../defaults'
+import { defaultMargin } from '../defaults.js'
 
 export const useDimensions = (width, height, partialMargin = {}) =>
     useMemo(() => {

@@ -5,9 +5,19 @@ import {
     getLabelGenerator,
 } from '@nivo/core'
 import { OrdinalColorScale, useOrdinalColorScale } from '@nivo/colors'
-import { computeChordLayout, computeChordGenerators, computeChordArcsAndRibbons } from './compute'
-import { ArcDatum, ChordCommonProps, ChordDataProps, CustomLayerProps, RibbonDatum } from './types'
-import { commonDefaultProps } from './defaults'
+import {
+    computeChordLayout,
+    computeChordGenerators,
+    computeChordArcsAndRibbons,
+} from './compute.js'
+import {
+    ArcDatum,
+    ChordCommonProps,
+    ChordDataProps,
+    CustomLayerProps,
+    RibbonDatum,
+} from './types.js'
+import { commonDefaultProps } from './defaults.js'
 import { ChordLayout } from 'd3-chord'
 
 export const useChordLayout = ({ padAngle }: { padAngle: ChordCommonProps['padAngle'] }) =>

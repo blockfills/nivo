@@ -11,7 +11,7 @@ import PropTypes from 'prop-types'
 import { useSpring, animated } from '@react-spring/web'
 import { useAnimatedPath, useMotionConfig } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import ParallelCoordinatesLineTooltip from './ParallelCoordinatesLineTooltip'
+import ParallelCoordinatesLineTooltip from './ParallelCoordinatesLineTooltip.js'
 
 const ParallelCoordinatesLine = ({
     data,

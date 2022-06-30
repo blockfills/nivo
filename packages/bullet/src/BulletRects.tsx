@@ -1,8 +1,8 @@
 import { createElement, useMemo } from 'react'
 import { useTransition, animated, to } from '@react-spring/web'
 import { useMotionConfig, useTheme } from '@nivo/core'
-import { computeRects } from './compute'
-import { BulletRectsProps, BulletRectComputedRect, BulletRectAnimatedProps } from './types'
+import { computeRects } from './compute.js'
+import { BulletRectsProps, BulletRectComputedRect, BulletRectAnimatedProps } from './types.js'
 import { useInheritedColor } from '@nivo/colors'
 
 export const BulletRects = ({

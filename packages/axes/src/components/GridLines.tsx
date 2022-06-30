@@ -1,8 +1,8 @@
 import { memo } from 'react'
 import { useTransition } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
-import { GridLine } from './GridLine'
-import { Line } from '../types'
+import { GridLine } from './GridLine.js'
+import { Line } from '../types.js'
 
 export const GridLines = memo(({ lines }: { lines: Line[] }) => {
     const { animate, config: springConfig } = useMotionConfig()

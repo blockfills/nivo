@@ -30,7 +30,7 @@ import {
     utcYear,
     timeInterval,
 } from 'd3-time'
-import { ScaleValue, TicksSpec, AnyScale, ScaleWithBandwidth } from './types'
+import { ScaleValue, TicksSpec, AnyScale, ScaleWithBandwidth } from './types.js'
 
 export const centerScale = <Value>(scale: ScaleWithBandwidth) => {
     const bandwidth = scale.bandwidth()

@@ -3,7 +3,7 @@ import * as React from 'react'
 import { animated } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
 import { ScaleValue } from '@nivo/scales'
-import { AxisTickProps } from '../types'
+import { AxisTickProps } from '../types.js'
 
 const AxisTick = <Value extends ScaleValue>({
     value: _value,
@@ -41,7 +41,7 @@ const AxisTick = <Value extends ScaleValue>({
                 transform={animatedProps.textTransform}
                 style={theme.axis.ticks.text}
             >
-                {value}
+                {String(value)}
             </animated.text>
         </animated.g>
     )

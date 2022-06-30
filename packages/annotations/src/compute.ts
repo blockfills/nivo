@@ -5,15 +5,15 @@ import {
     degreesToRadians,
     positionFromAngle,
 } from '@nivo/core'
-import { defaultProps } from './props'
+import { defaultProps } from './props.js'
 import {
     AnnotationPositionGetter,
     AnnotationDimensionsGetter,
     BoundAnnotation,
     AnnotationMatcher,
     AnnotationInstructions,
-} from './types'
-import { isCircleAnnotation, isRectAnnotation } from './utils'
+} from './types.js'
+import { isCircleAnnotation, isRectAnnotation } from './utils.js'
 
 export const bindAnnotations = <
     Datum = {

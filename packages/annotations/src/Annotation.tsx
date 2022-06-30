@@ -1,11 +1,11 @@
-import { useComputedAnnotation } from './hooks'
-import { AnnotationNote } from './AnnotationNote'
-import { AnnotationLink } from './AnnotationLink'
-import { CircleAnnotationOutline } from './CircleAnnotationOutline'
-import { DotAnnotationOutline } from './DotAnnotationOutline'
-import { RectAnnotationOutline } from './RectAnnotationOutline'
-import { BoundAnnotation } from './types'
-import { isCircleAnnotation, isDotAnnotation, isRectAnnotation, isSvgNote } from './utils'
+import { useComputedAnnotation } from './hooks.js'
+import { AnnotationNote } from './AnnotationNote.js'
+import { AnnotationLink } from './AnnotationLink.js'
+import { CircleAnnotationOutline } from './CircleAnnotationOutline.js'
+import { DotAnnotationOutline } from './DotAnnotationOutline.js'
+import { RectAnnotationOutline } from './RectAnnotationOutline.js'
+import { BoundAnnotation } from './types.js'
+import { isCircleAnnotation, isDotAnnotation, isRectAnnotation, isSvgNote } from './utils.js'
 
 export const Annotation = <Datum,>(annotation: BoundAnnotation<Datum>) => {
     const { datum, x, y, note } = annotation

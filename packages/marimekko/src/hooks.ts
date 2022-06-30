@@ -16,7 +16,7 @@ import {
     BarDatum,
     OffsetId,
     offsetById,
-} from './types'
+} from './types.js'
 
 // d3 stack does not support defining `.keys()` using
 // a mix of keys and custom value accessors, so we're

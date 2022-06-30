@@ -3,11 +3,11 @@ import { Dimensions } from '@nivo/core'
 import { Line, LineSvgProps } from '@nivo/line'
 // @ts-ignore
 import { curvePropKeys } from '@nivo/core'
-import { custom, axes, blendMode } from './common'
-// import { scale } from './commons/scales'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { OmitStrict } from '../types'
+import { custom, axes, blendMode } from './common.js'
+// import { scale } from './commons/scales.js'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { OmitStrict } from '../types.js'
 import { FunctionComponent } from 'react'
 
 export type LineApiProps = OmitStrict<

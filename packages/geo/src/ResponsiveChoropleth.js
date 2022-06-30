@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import Choropleth from './Choropleth'
+import Choropleth from './Choropleth.js'
 
 const ResponsiveChoropleth = props => (
     <ResponsiveWrapper>

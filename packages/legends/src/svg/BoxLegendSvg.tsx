@@ -1,6 +1,6 @@
-import { LegendSvg } from './LegendSvg'
-import { BoxLegendSvgProps } from '../types'
-import { computeDimensions, computePositionFromAnchor } from '../compute'
+import { LegendSvg } from './LegendSvg.js'
+import { BoxLegendSvgProps } from '../types.js'
+import { computeDimensions, computePositionFromAnchor } from '../compute.js'
 
 export const BoxLegendSvg = ({
     data,

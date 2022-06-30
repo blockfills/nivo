@@ -1,43 +1,49 @@
 {
   "name": "@nivo/annotations",
   "version": "0.79.1",
-  "license": "MIT",
-  "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/plouc/nivo.git",
     "directory": "packages/annotations"
   },
-  "keywords": [
-    "nivo",
-    "dataviz",
-    "react",
-    "charts",
-    "annotations"
-  ],
-  "main": "./dist/nivo-annotations.cjs.js",
-  "module": "./dist/nivo-annotations.es.js",
-  "typings": "./dist/types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Raphaël Benitte",
+    "url": "https://github.com/plouc"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
   "files": [
-    "README.md",
-    "LICENSE.md",
-    "dist/",
-    "!dist/tsconfig.tsbuildinfo"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsc --build",
+    "prepack": "yarn run build"
+  },
   "dependencies": {
-    "@nivo/colors": "0.79.1",
+    "@nivo/colors": "workspace:*",
     "@react-spring/web": "9.3.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "@nivo/core": "0.79.0"
+    "@nivo/core": "workspace:*",
+    "@types/lodash": "^4.14.170",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "@nivo/core": "0.79.0",
-    "react": ">= 16.14.0 < 18.0.0"
+    "@nivo/core": "workspace:*",
+    "@types/react": "^16.14 || 17.x || 18.x",
+    "react": "^16.14 || 17.x || 18.x"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

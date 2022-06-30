@@ -1,6 +1,6 @@
-import { RadarGridLabel } from './RadarGridLabel'
-import { RadarSliceTooltip } from './RadarSliceTooltip'
-import { RadarLayerId } from './types'
+import { RadarGridLabel } from './RadarGridLabel.js'
+import { RadarSliceTooltip } from './RadarSliceTooltip.js'
+import { RadarLayerId } from './types.js'
 
 export const svgDefaultProps = {
     layers: ['grid', 'layers', 'slices', 'dots', 'legends'] as RadarLayerId[],

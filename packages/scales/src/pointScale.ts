@@ -1,5 +1,5 @@
 import { scalePoint, ScalePoint as D3ScalePoint } from 'd3-scale'
-import { ComputedSerieAxis, ScalePoint, ScalePointSpec, StringValue } from './types'
+import { ComputedSerieAxis, ScalePoint, ScalePointSpec, StringValue } from './types.js'
 
 export const createPointScale = <Input extends StringValue>(
     _spec: ScalePointSpec,

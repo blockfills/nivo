@@ -1,7 +1,7 @@
 import { createFactory, Component } from 'react'
-import { setDisplayName } from './setDisplayName'
-import { InferableComponentEnhancerWithProps, Mapper } from './types'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { InferableComponentEnhancerWithProps, Mapper } from './types.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 type StateProps<TState, TStateName extends string, TStateUpdaterName extends string> = {
     [stateName in TStateName]: TState
@@ -37,7 +37,6 @@ export const withState =
                 )
 
             render() {
-                // @ts-expect-error due to how factory is typed
                 return factory({
                     ...this.props,
                     [stateName]: this.state.stateValue,

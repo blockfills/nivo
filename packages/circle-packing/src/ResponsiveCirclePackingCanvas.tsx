@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { CirclePackingCanvasProps } from './types'
-import { CirclePackingCanvas } from './CirclePackingCanvas'
+import { CirclePackingCanvasProps } from './types.js'
+import { CirclePackingCanvas } from './CirclePackingCanvas.js'
 
 type ResponsiveCirclePackingCanvasProps<RawDatum> = Partial<
     Omit<CirclePackingCanvasProps<RawDatum>, 'data' | 'width' | 'height'>

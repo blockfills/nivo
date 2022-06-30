@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { AreaBumpDatum, AreaBumpComputedSerie, AreaBumpSerieExtraProps } from './types'
+import { AreaBumpDatum, AreaBumpComputedSerie, AreaBumpSerieExtraProps } from './types.js'
 
 interface AreaTooltipProps<
     Datum extends AreaBumpDatum,

@@ -2,11 +2,11 @@ import { createElement, Fragment, ReactNode } from 'react'
 import { uniq } from 'lodash'
 import { SvgWrapper, useDimensions, Container } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
-import { svgDefaultProps } from './props'
-import { useSankey } from './hooks'
-import { SankeyNodes } from './SankeyNodes'
-import { SankeyLinks } from './SankeyLinks'
-import { SankeyLabels } from './SankeyLabels'
+import { svgDefaultProps } from './props.js'
+import { useSankey } from './hooks.js'
+import { SankeyNodes } from './SankeyNodes.js'
+import { SankeyLinks } from './SankeyLinks.js'
+import { SankeyLabels } from './SankeyLabels.js'
 import {
     DefaultLink,
     DefaultNode,
@@ -14,7 +14,7 @@ import {
     SankeyLinkDatum,
     SankeyNodeDatum,
     SankeySvgProps,
-} from './types'
+} from './types.js'
 
 type InnerSankeyProps<N extends DefaultNode, L extends DefaultLink> = Omit<
     SankeySvgProps<N, L>,

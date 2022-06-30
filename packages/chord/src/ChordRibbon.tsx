@@ -7,8 +7,8 @@ import {
     RibbonAnimatedProps,
     RibbonDatum,
     RibbonGenerator,
-} from './types'
-import { computeRibbonPath } from './compute'
+} from './types.js'
+import { computeRibbonPath } from './compute.js'
 
 interface ChordRibbonProps {
     ribbon: RibbonDatum

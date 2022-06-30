@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { scaleQuantize } from 'd3-scale'
-import { colorInterpolators, ColorInterpolatorId } from '../schemes'
+import { colorInterpolators, ColorInterpolatorId } from '../schemes/index.js'
 
 // colors from a scheme
 export interface QuantizeColorScaleSchemeConfig {

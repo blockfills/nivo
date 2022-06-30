@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { CirclePacking, CirclePackingSvgProps } from '@nivo/circle-packing'
-import { custom } from './common'
-import { dimensions } from './commons/dimensions'
-import { inheritedColor, ordinalColors } from './commons/colors'
-import { OmitStrict } from '../types'
+import { custom } from './common.js'
+import { dimensions } from './commons/dimensions.js'
+import { inheritedColor, ordinalColors } from './commons/colors.js'
+import { OmitStrict } from '../types.js'
 
 export type CirclePackingApiProps = OmitStrict<
     CirclePackingSvgProps<any>,

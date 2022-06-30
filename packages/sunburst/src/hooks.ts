@@ -11,8 +11,8 @@ import {
     DataProps,
     DatumId,
     SunburstCustomLayerProps,
-} from './types'
-import { defaultProps } from './props'
+} from './types.js'
+import { defaultProps } from './props.js'
 
 export const useSunburst = <RawDatum>({
     data,

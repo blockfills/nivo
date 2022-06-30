@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import WaffleCanvas from './WaffleCanvas'
+import WaffleCanvas from './WaffleCanvas.js'
 
 const ResponsiveWaffleCanvas = props => (
     <ResponsiveWrapper>

@@ -1,4 +1,4 @@
-import { CalendarDayProps } from './types'
+import { CalendarDayProps } from './types.js'
 import { useTooltip } from '@nivo/tooltip'
 import { memo, useCallback } from 'react'
 import * as React from 'react'

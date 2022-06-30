@@ -1,5 +1,5 @@
-import { DefaultHeatMapDatum, HeatMapCommonProps, LayerId } from './types'
-import { HeatMapTooltip } from './HeatMapTooltip'
+import { DefaultHeatMapDatum, HeatMapCommonProps, LayerId } from './types.js'
+import { HeatMapTooltip } from './HeatMapTooltip.js'
 
 export const commonDefaultProps: Omit<
     HeatMapCommonProps<DefaultHeatMapDatum>,

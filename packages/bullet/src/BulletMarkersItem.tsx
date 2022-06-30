@@ -1,4 +1,4 @@
-import { BulletMarkersItemProps } from './types'
+import { BulletMarkersItemProps } from './types.js'
 import { animated } from '@react-spring/web'
 
 export const BulletMarkersItem = ({

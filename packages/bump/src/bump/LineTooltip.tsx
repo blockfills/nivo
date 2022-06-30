@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { BumpComputedSerie, BumpDatum, BumpSerieExtraProps } from './types'
+import { BumpComputedSerie, BumpDatum, BumpSerieExtraProps } from './types.js'
 
 interface LineTooltipProps<Datum extends BumpDatum, ExtraProps extends BumpSerieExtraProps> {
     serie: BumpComputedSerie<Datum, ExtraProps>

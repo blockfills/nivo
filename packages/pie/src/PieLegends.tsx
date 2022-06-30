@@ -1,5 +1,5 @@
 import { BoxLegendSvg } from '@nivo/legends'
-import { CompletePieSvgProps, ComputedDatum, DatumId } from './types'
+import { CompletePieSvgProps, ComputedDatum, DatumId } from './types.js'
 
 interface PieLegendsProps<RawDatum> {
     width: number

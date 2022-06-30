@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { ChordCanvas } from './ChordCanvas'
-import { ChordCanvasProps } from './types'
+import { ChordCanvas } from './ChordCanvas.js'
+import { ChordCanvasProps } from './types.js'
 
 export const ResponsiveChordCanvas = (props: Omit<ChordCanvasProps, 'width' | 'height'>) => (
     <ResponsiveWrapper>

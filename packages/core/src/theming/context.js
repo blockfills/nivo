@@ -8,7 +8,7 @@
  */
 import { createContext, useContext } from 'react'
 import PropTypes from 'prop-types'
-import { usePartialTheme } from '../hooks'
+import { usePartialTheme } from '../hooks.js'
 
 export const themeContext = createContext()
 

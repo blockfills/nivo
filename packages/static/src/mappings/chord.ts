@@ -2,10 +2,10 @@ import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Dimensions } from '@nivo/core'
 import { Chord, ChordSvgProps } from '@nivo/chord'
-import { custom } from './common'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { OmitStrict } from '../types'
+import { custom } from './common.js'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { OmitStrict } from '../types.js'
 
 // filter out all dynamic properties
 export type ChordApiProps = OmitStrict<

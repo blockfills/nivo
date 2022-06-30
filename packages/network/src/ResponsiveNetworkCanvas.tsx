@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { NetworkCanvasProps, InputNode, InputLink } from './types'
-import { NetworkCanvas } from './NetworkCanvas'
+import { NetworkCanvasProps, InputNode, InputLink } from './types.js'
+import { NetworkCanvas } from './NetworkCanvas.js'
 
 export const ResponsiveNetworkCanvas = <
     Node extends InputNode = InputNode,

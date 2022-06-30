@@ -6,16 +6,16 @@ import {
     // @ts-ignore
     bindDefs,
 } from '@nivo/core'
-import { useTreeMap, useCustomLayerProps } from './hooks'
-import { TreeMapNodes } from './TreeMapNodes'
+import { useTreeMap, useCustomLayerProps } from './hooks.js'
+import { TreeMapNodes } from './TreeMapNodes.js'
 import {
     DefaultTreeMapDatum,
     NodeComponent,
     TreeMapCommonProps,
     TreeMapSvgProps,
     LayerId,
-} from './types'
-import { svgDefaultProps } from './defaults'
+} from './types.js'
+import { svgDefaultProps } from './defaults.js'
 
 type InnerTreeMapProps<Datum extends object> = Omit<
     TreeMapSvgProps<Datum>,

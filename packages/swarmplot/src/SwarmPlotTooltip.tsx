@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { ComputedDatum } from './types'
+import { ComputedDatum } from './types.js'
 
 export const SwarmPlotTooltip = <RawDatum,>({
     id,

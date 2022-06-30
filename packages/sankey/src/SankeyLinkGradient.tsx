@@ -1,4 +1,4 @@
-import { SankeyCommonProps } from './types'
+import { SankeyCommonProps } from './types.js'
 
 interface SankeyLinkGradientProps {
     id: string

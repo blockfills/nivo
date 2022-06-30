@@ -8,7 +8,7 @@
  */
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import SlicesItem from './SlicesItem'
+import SlicesItem from './SlicesItem.js'
 
 const Slices = ({ slices, axis, debug, height, tooltip, current, setCurrent }) => {
     return slices.map(slice => (

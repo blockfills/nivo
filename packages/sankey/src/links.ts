@@ -1,5 +1,5 @@
 import { line, curveMonotoneX, curveMonotoneY } from 'd3-shape'
-import { DefaultLink, DefaultNode, SankeyLinkDatum } from './types'
+import { DefaultLink, DefaultNode, SankeyLinkDatum } from './types.js'
 
 export const sankeyLinkHorizontal = <N extends DefaultNode, L extends DefaultLink>() => {
     const lineGenerator = line().curve(curveMonotoneX)

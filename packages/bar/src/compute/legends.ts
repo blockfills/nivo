@@ -5,7 +5,7 @@ import {
     BarsWithHidden,
     LegendData,
     LegendLabelDatum,
-} from '../types'
+} from '../types.js'
 import { getPropertyAccessor } from '@nivo/core'
 import { uniqBy } from 'lodash'
 

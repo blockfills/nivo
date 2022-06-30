@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import CartesianMarkersItem from './CartesianMarkersItem'
+import CartesianMarkersItem from './CartesianMarkersItem.js'
 
 const CartesianMarkers = ({ markers, width, height, xScale, yScale }) => {
     if (!markers || markers.length === 0) return null

@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "composite": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "target": "ES2020",
-    "module": "ES2020",
-    "moduleResolution": "node",
-    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "noImplicitAny": true,
     "noImplicitReturns": false,
     "noImplicitThis": true,
@@ -15,9 +16,6 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "strict": true,
-    "allowJs": true,
-    "composite": true,
-    "declarationMap": true
-  },
-  "include": ["./packages/*/index.d.ts"]
+    "target": "esnext"
+  }
 }

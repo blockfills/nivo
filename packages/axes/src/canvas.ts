@@ -1,8 +1,8 @@
 import { degreesToRadians, CompleteTheme } from '@nivo/core'
 import { ScaleValue, AnyScale, TicksSpec } from '@nivo/scales'
-import { computeCartesianTicks, getFormatter, computeGridLines } from './compute'
-import { positions } from './props'
-import { AxisLegendPosition, CanvasAxisProps, ValueFormatter } from './types'
+import { computeCartesianTicks, getFormatter, computeGridLines } from './compute.js'
+import { positions } from './props.js'
+import { AxisLegendPosition, CanvasAxisProps, ValueFormatter } from './types.js'
 
 export const renderAxisToCanvas = <Value extends ScaleValue>(
     ctx: CanvasRenderingContext2D,

@@ -4,8 +4,8 @@ import {
     AreaBumpSerieExtraProps,
     AreaBumpSvgProps,
     DefaultAreaBumpDatum,
-} from './types'
-import { AreaBump } from './AreaBump'
+} from './types.js'
+import { AreaBump } from './AreaBump.js'
 
 export const ResponsiveAreaBump = <
     Datum extends AreaBumpDatum = DefaultAreaBumpDatum,

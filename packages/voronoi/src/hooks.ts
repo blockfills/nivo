@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import { scaleLinear } from 'd3-scale'
 import { Delaunay } from 'd3-delaunay'
-import { computeMeshPoints, computeMesh, XYAccessor } from './computeMesh'
-import { VoronoiCommonProps, VoronoiDatum, VoronoiCustomLayerProps } from './types'
+import { computeMeshPoints, computeMesh, XYAccessor } from './computeMesh.js'
+import { VoronoiCommonProps, VoronoiDatum, VoronoiCustomLayerProps } from './types.js'
 
 export const useVoronoiMesh = <Datum>({
     points,

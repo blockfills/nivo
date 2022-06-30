@@ -1,4 +1,4 @@
-import { BulletRectsItemProps } from './types'
+import { BulletRectsItemProps } from './types.js'
 import { animated, to } from '@react-spring/web'
 
 export const BulletRectsItem = ({

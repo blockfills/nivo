@@ -1,6 +1,6 @@
 import { createElement, memo, useCallback } from 'react'
 import { useTooltip } from '@nivo/tooltip'
-import { TimeRangeDayProps } from './types'
+import { TimeRangeDayProps } from './types.js'
 
 export const TimeRangeDay = memo(
     ({

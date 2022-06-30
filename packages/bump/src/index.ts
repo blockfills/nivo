@@ -1,2 +1,2 @@
-export * from './bump'
-export * from './area-bump'
+export * from './bump.js'
+export * from './area-bump.js'

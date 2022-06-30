@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { TableTooltip, Chip } from '@nivo/tooltip'
-import { RibbonTooltipComponentProps } from './types'
+import { RibbonTooltipComponentProps } from './types.js'
 
 export const ChordRibbonTooltip = memo(({ ribbon }: RibbonTooltipComponentProps) => (
     <TableTooltip

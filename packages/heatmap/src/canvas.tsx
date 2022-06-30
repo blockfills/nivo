@@ -1,4 +1,4 @@
-import { CellCanvasRendererProps, HeatMapDatum } from './types'
+import { CellCanvasRendererProps, HeatMapDatum } from './types.js'
 
 export const renderRect = <Datum extends HeatMapDatum>(
     ctx: CanvasRenderingContext2D,

@@ -1,8 +1,8 @@
 import { createElement, Fragment, ReactNode } from 'react'
 import { Container, SvgWrapper, useDimensions } from '@nivo/core'
-import { VoronoiSvgProps, VoronoiLayerId } from './types'
-import { defaultVoronoiProps } from './props'
-import { useVoronoi, useVoronoiLayerContext } from './hooks'
+import { VoronoiSvgProps, VoronoiLayerId } from './types.js'
+import { defaultVoronoiProps } from './props.js'
+import { useVoronoi, useVoronoiLayerContext } from './hooks.js'
 
 type InnerVoronoiProps = Partial<Omit<VoronoiSvgProps, 'data' | 'width' | 'height'>> &
     Pick<VoronoiSvgProps, 'data' | 'width' | 'height'>

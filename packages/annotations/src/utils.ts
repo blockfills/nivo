@@ -6,7 +6,7 @@ import {
     NoteCanvas,
     NoteSvg,
     RectAnnotationSpec,
-} from './types'
+} from './types.js'
 import { isValidElement } from 'react'
 
 export const isSvgNote = <Datum>(note: Note<Datum>): note is NoteSvg<Datum> => {

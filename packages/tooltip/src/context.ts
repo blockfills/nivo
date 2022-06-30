@@ -1,5 +1,5 @@
 import { createContext, MouseEvent } from 'react'
-import { TooltipAnchor } from './types'
+import { TooltipAnchor } from './types.js'
 
 export interface TooltipActionsContextData {
     showTooltipAt: (

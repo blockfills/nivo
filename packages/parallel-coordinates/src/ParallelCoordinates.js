@@ -8,9 +8,9 @@
  */
 import { SvgWrapper, useDimensions, withContainer } from '@nivo/core'
 import { Axis } from '@nivo/axes'
-import { svgPropTypes, svgDefaultProps } from './props'
-import { useParallelCoordinates } from './hooks'
-import ParallelCoordinatesLine from './ParallelCoordinatesLine'
+import { svgPropTypes, svgDefaultProps } from './props.js'
+import { useParallelCoordinates } from './hooks.js'
+import ParallelCoordinatesLine from './ParallelCoordinatesLine.js'
 
 const ParallelCoordinates = ({
     data,

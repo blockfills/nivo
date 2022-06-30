@@ -302,4 +302,4 @@ export const getColorScale = (colors, dataScale) => {
     return () => colors
 }
 
-export * from './quantize'
+export * from './quantize.js'

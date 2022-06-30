@@ -10,10 +10,10 @@ import { memo, Fragment, useCallback } from 'react'
 import { SvgWrapper, withContainer, useDimensions, useTheme } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
-import { ChoroplethPropTypes, ChoroplethDefaultProps } from './props'
-import GeoGraticule from './GeoGraticule'
-import GeoMapFeature from './GeoMapFeature'
-import { useGeoMap, useChoropleth } from './hooks'
+import { ChoroplethPropTypes, ChoroplethDefaultProps } from './props.js'
+import GeoGraticule from './GeoGraticule.js'
+import GeoMapFeature from './GeoMapFeature.js'
+import { useGeoMap, useChoropleth } from './hooks.js'
 
 const Choropleth = memo(
     ({

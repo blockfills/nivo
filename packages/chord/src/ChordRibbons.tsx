@@ -7,7 +7,7 @@ import {
     useMotionConfig,
 } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
-import { ChordRibbon } from './ChordRibbon'
+import { ChordRibbon } from './ChordRibbon.js'
 import {
     ChordCommonProps,
     ChordSvgProps,
@@ -15,7 +15,7 @@ import {
     RibbonAnimatedProps,
     RibbonGenerator,
     ArcDatum,
-} from './types'
+} from './types.js'
 
 /**
  * Used to get ribbon angles, instead of using source and target arcs,

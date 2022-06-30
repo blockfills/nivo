@@ -1,4 +1,4 @@
-import { BulletItemProps, BulletRectsProps, ComputedRangeDatum } from './types'
+import { BulletItemProps, BulletRectsProps, ComputedRangeDatum } from './types.js'
 // @ts-ignore
 import { getColorScale } from '@nivo/core'
 

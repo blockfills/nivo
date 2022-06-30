@@ -1,9 +1,9 @@
 import { createElement, useMemo } from 'react'
 import { useTransition } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
-import { CirclePackingCommonProps, ComputedDatum, LabelComponent, ComputedLabel } from './types'
-import { useCirclePackingLabels } from './hooks'
-import { interpolateRadius } from './Circles'
+import { CirclePackingCommonProps, ComputedDatum, LabelComponent, ComputedLabel } from './types.js'
+import { useCirclePackingLabels } from './hooks.js'
+import { interpolateRadius } from './Circles.js'
 
 interface CirclesProps<RawDatum> {
     nodes: ComputedDatum<RawDatum>[]

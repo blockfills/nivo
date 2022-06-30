@@ -10,7 +10,7 @@ import {
     RibbonGenerator,
     ArcGenerator,
     ArcAnimatedProps,
-} from './types'
+} from './types.js'
 import { OrdinalColorScale } from '@nivo/colors'
 
 export const computeChordLayout = ({ padAngle }: { padAngle: ChordCommonProps['padAngle'] }) =>

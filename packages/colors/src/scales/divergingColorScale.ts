@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { scaleDiverging } from 'd3-scale'
-import { colorInterpolators, ColorInterpolatorId } from '../schemes'
+import { colorInterpolators, ColorInterpolatorId } from '../schemes/index.js'
 
 export interface DivergingColorScaleConfig {
     type: 'diverging'

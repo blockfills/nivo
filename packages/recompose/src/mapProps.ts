@@ -1,7 +1,7 @@
 import { createFactory } from 'react'
-import { setDisplayName } from './setDisplayName'
-import { InferableComponentEnhancerWithProps, Mapper } from './types'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { InferableComponentEnhancerWithProps, Mapper } from './types.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 export const mapProps =
     <TInner, TOuter>(

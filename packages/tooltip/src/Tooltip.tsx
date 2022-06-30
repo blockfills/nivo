@@ -1,6 +1,6 @@
-import { useTooltipState } from './hooks'
-import { TooltipWrapper } from './TooltipWrapper'
-import { TooltipStateContextData, TooltipStateContextDataVisible } from './context'
+import { useTooltipState } from './hooks.js'
+import { TooltipWrapper } from './TooltipWrapper.js'
+import { TooltipStateContextData, TooltipStateContextDataVisible } from './context.js'
 
 export const isVisibleTooltipState = (
     state: TooltipStateContextData

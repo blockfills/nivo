@@ -1,6 +1,6 @@
 import range from 'lodash/range'
 import random from 'lodash/random'
-import { names } from './sets'
+import { names } from './sets.js'
 
 export const generateChordData = ({
     keys = names,

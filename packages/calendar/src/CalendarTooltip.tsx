@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { CalendarTooltipProps } from './types'
+import { CalendarTooltipProps } from './types.js'
 import { memo } from 'react'
 
 export const CalendarTooltip = memo(({ value, day, color }: CalendarTooltipProps) => {

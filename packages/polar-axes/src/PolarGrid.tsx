@@ -1,6 +1,6 @@
 import { AnyScale } from '@nivo/scales'
-import { RadialGrid } from './RadialGrid'
-import { CircularGrid } from './CircularGrid'
+import { RadialGrid } from './RadialGrid.js'
+import { CircularGrid } from './CircularGrid.js'
 
 interface PolarGridProps {
     center: [number, number]

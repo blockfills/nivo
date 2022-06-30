@@ -3,8 +3,8 @@ import random from 'lodash/random'
 import shuffle from 'lodash/shuffle'
 import { timeDays } from 'd3-time'
 import { timeFormat } from 'd3-time-format'
-import * as color from './color'
-import * as sets from './sets'
+import * as color from './color.js'
+import * as sets from './sets.js'
 
 export { sets }
 export const randColor = color.randColor
@@ -277,10 +277,10 @@ export const generateWinesTastes = ({ randMin = 20, randMax = 120 } = {}) => {
     return { data, keys: wines }
 }
 
-export * from './bullet'
-export * from './chord'
-export * from './network'
-export * from './parallelCoordinates'
-export * from './sankey'
-export * from './swarmplot'
-export * from './xySeries'
+export * from './bullet.js'
+export * from './chord.js'
+export * from './network.js'
+export * from './parallelCoordinates.js'
+export * from './sankey.js'
+export * from './swarmplot.js'
+export * from './xySeries.js'

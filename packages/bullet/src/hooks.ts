@@ -1,6 +1,6 @@
 import { createLinearScale } from '@nivo/scales'
 import { useMemo } from 'react'
-import { Datum, CommonBulletProps } from './types'
+import { Datum, CommonBulletProps } from './types.js'
 
 export const useEnhancedData = (
     data: Datum[],

@@ -1,6 +1,6 @@
 import { createElement, useCallback, useState } from 'react'
 import { useTooltip } from '@nivo/tooltip'
-import { StreamCommonProps, StreamDatum, StreamSliceData } from './types'
+import { StreamCommonProps, StreamDatum, StreamSliceData } from './types.js'
 
 interface StreamSlicesItemProps<RawDatum extends StreamDatum> {
     slice: StreamSliceData

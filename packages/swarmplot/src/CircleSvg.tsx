@@ -1,5 +1,5 @@
 import { animated } from '@react-spring/web'
-import { CircleProps } from './types'
+import { CircleProps } from './types.js'
 
 export const CircleSvg = <RawDatum,>({
     node,

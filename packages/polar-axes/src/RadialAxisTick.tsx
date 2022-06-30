@@ -1,6 +1,6 @@
 import { animated, to } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
-import { RadialAxisTickProps } from './types'
+import { RadialAxisTickProps } from './types.js'
 
 export const RadialAxisTick = ({
     label,

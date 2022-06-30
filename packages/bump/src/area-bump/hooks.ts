@@ -3,7 +3,7 @@ import { area as d3Area, curveBasis, curveLinear } from 'd3-shape'
 import { useTheme } from '@nivo/core'
 import { useOrdinalColorScale, useInheritedColor, InheritedColorConfig } from '@nivo/colors'
 import { useTooltip } from '@nivo/tooltip'
-import { computeSeries } from './compute'
+import { computeSeries } from './compute.js'
 import {
     AreaBumpAreaPoint,
     AreaBumpCommonProps,
@@ -15,7 +15,7 @@ import {
     AreaBumpLabelData,
     AreaBumpSerieExtraProps,
     DefaultAreaBumpDatum,
-} from './types'
+} from './types.js'
 
 const useAreaBumpSeries = <
     Datum extends AreaBumpDatum,

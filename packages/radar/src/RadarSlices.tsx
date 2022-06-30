@@ -1,6 +1,6 @@
 import { arc as d3Arc } from 'd3-shape'
-import { RadarSlice } from './RadarSlice'
-import { RadarColorMapping, RadarCommonProps, RadarDataProps } from './types'
+import { RadarSlice } from './RadarSlice.js'
+import { RadarColorMapping, RadarCommonProps, RadarDataProps } from './types.js'
 
 interface RadarSlicesProps<D extends Record<string, unknown>> {
     data: RadarDataProps<D>['data']

@@ -6,6 +6,6 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-export * from './gradients'
-export * from './patterns'
-export { default as Defs } from './Defs'
+export * from './gradients.js'
+export * from './patterns.js'
+export { default as Defs } from './Defs.js'

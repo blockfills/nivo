@@ -1,13 +1,13 @@
 import { useSpring, animated } from '@react-spring/web'
 import { useAnimatedPath, useMotionConfig } from '@nivo/core'
-import { useAreaBumpSerieHandlers } from './hooks'
+import { useAreaBumpSerieHandlers } from './hooks.js'
 import {
     AreaBumpAreaGenerator,
     AreaBumpCommonProps,
     AreaBumpComputedSerie,
     AreaBumpDatum,
     AreaBumpSerieExtraProps,
-} from './types'
+} from './types.js'
 
 interface AreaProps<Datum extends AreaBumpDatum, ExtraProps extends AreaBumpSerieExtraProps> {
     serie: AreaBumpComputedSerie<Datum, ExtraProps>

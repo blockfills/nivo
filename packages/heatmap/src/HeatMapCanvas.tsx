@@ -4,9 +4,9 @@ import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
 import { useTooltip } from '@nivo/tooltip'
 import { renderContinuousColorLegendToCanvas } from '@nivo/legends'
 import { renderAnnotationsToCanvas, useComputedAnnotations } from '@nivo/annotations'
-import { useHeatMap, useCellAnnotations } from './hooks'
-import { renderRect, renderCircle } from './canvas'
-import { canvasDefaultProps } from './defaults'
+import { useHeatMap, useCellAnnotations } from './hooks.js'
+import { renderRect, renderCircle } from './canvas.js'
+import { canvasDefaultProps } from './defaults.js'
 import {
     CellCanvasRenderer,
     DefaultHeatMapDatum,
@@ -15,7 +15,7 @@ import {
     HeatMapDatum,
     CellShape,
     CustomLayerProps,
-} from './types'
+} from './types.js'
 
 type InnerNetworkCanvasProps<Datum extends HeatMapDatum, ExtraProps extends object> = Omit<
     HeatMapCanvasProps<Datum, ExtraProps>,

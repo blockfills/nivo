@@ -1,5 +1,5 @@
-import { Bar } from './Bar'
-import { BarDatum, BarSvgProps } from './types'
+import { Bar } from './Bar.js'
+import { BarDatum, BarSvgProps } from './types.js'
 import { ResponsiveWrapper } from '@nivo/core'
 
 export const ResponsiveBar = <RawDatum extends BarDatum>(

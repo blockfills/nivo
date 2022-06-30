@@ -1,6 +1,6 @@
 import { useSpring, animated } from '@react-spring/web'
 import { useTheme, useMotionConfig } from '@nivo/core'
-import { FunnelDatum, FunnelPart } from './types'
+import { FunnelDatum, FunnelPart } from './types.js'
 
 interface PartLabelProps<D extends FunnelDatum> {
     part: FunnelPart<D>

@@ -1,6 +1,6 @@
 import { Annotation } from '@nivo/annotations'
-import { useFunnelAnnotations } from './hooks'
-import { FunnelDatum, FunnelPart } from './types'
+import { useFunnelAnnotations } from './hooks.js'
+import { FunnelDatum, FunnelPart } from './types.js'
 
 interface FunnelAnnotationsProps<D extends FunnelDatum> {
     parts: FunnelPart<D>[]

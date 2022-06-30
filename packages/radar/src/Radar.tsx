@@ -1,13 +1,13 @@
 import { ReactNode, Fragment, createElement } from 'react'
 import { Container, useDimensions, SvgWrapper } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
-import { RadarLayer } from './RadarLayer'
-import { RadarGrid } from './RadarGrid'
-import { RadarSlices } from './RadarSlices'
-import { RadarDots } from './RadarDots'
-import { svgDefaultProps } from './props'
-import { RadarLayerId, RadarSvgProps } from './types'
-import { useRadar } from './hooks'
+import { RadarLayer } from './RadarLayer.js'
+import { RadarGrid } from './RadarGrid.js'
+import { RadarSlices } from './RadarSlices.js'
+import { RadarDots } from './RadarDots.js'
+import { svgDefaultProps } from './props.js'
+import { RadarLayerId, RadarSvgProps } from './types.js'
+import { useRadar } from './hooks.js'
 
 type InnerRadarProps<D extends Record<string, unknown>> = Omit<
     RadarSvgProps<D>,

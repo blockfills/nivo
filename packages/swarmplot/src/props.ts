@@ -1,6 +1,6 @@
 import { ScaleLinearSpec } from '@nivo/scales'
-import { SwarmPlotLayerId } from './types'
-import { SwarmPlotTooltip } from './SwarmPlotTooltip'
+import { SwarmPlotLayerId } from './types.js'
+import { SwarmPlotTooltip } from './SwarmPlotTooltip.js'
 
 export const defaultProps = {
     id: 'id',

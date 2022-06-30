@@ -9,9 +9,14 @@ import {
     Margin,
 } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import { useTreeMap } from './hooks'
-import { ComputedNode, DefaultTreeMapDatum, TreeMapCanvasProps, TreeMapCommonProps } from './types'
-import { canvasDefaultProps } from './defaults'
+import { useTreeMap } from './hooks.js'
+import {
+    ComputedNode,
+    DefaultTreeMapDatum,
+    TreeMapCanvasProps,
+    TreeMapCommonProps,
+} from './types.js'
+import { canvasDefaultProps } from './defaults.js'
 
 const findNodeUnderCursor = <Datum extends object>(
     nodes: ComputedNode<Datum>[],

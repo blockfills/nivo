@@ -3,11 +3,11 @@ import { Container, useDimensions, SvgWrapper, clampArc } from '@nivo/core'
 import { ArcLabelsLayer } from '@nivo/arcs'
 import { BoxLegendSvg } from '@nivo/legends'
 import { PolarGrid, RadialAxis, CircularAxis } from '@nivo/polar-axes'
-import { RadialBarLayerId, RadialBarSvgProps, ComputedBar, RadialBarDatum } from './types'
-import { svgDefaultProps } from './props'
-import { useRadialBar } from './hooks'
-import { RadialBarArcs } from './RadialBarArcs'
-import { RadialBarTracks } from './RadialBarTracks'
+import { RadialBarLayerId, RadialBarSvgProps, ComputedBar, RadialBarDatum } from './types.js'
+import { svgDefaultProps } from './props.js'
+import { useRadialBar } from './hooks.js'
+import { RadialBarArcs } from './RadialBarArcs.js'
+import { RadialBarTracks } from './RadialBarTracks.js'
 
 type InnerRadialBarProps<D extends RadialBarDatum = RadialBarDatum> = Omit<
     RadialBarSvgProps<D>,

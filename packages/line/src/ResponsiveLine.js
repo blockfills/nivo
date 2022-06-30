@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import Line from './Line'
+import Line from './Line.js'
 
 const ResponsiveLine = props => (
     <ResponsiveWrapper>

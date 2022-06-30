@@ -9,10 +9,10 @@
 import { Fragment, useCallback, memo } from 'react'
 import { SvgWrapper, withContainer, useDimensions, useTheme } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import { GeoMapPropTypes, GeoMapDefaultProps } from './props'
-import GeoGraticule from './GeoGraticule'
-import GeoMapFeature from './GeoMapFeature'
-import { useGeoMap } from './hooks'
+import { GeoMapPropTypes, GeoMapDefaultProps } from './props.js'
+import GeoGraticule from './GeoGraticule.js'
+import GeoMapFeature from './GeoMapFeature.js'
+import { useGeoMap } from './hooks.js'
 
 const GeoMap = memo(props => {
     const {

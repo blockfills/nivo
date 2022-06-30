@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { DefaultLink, DefaultNode, SankeySvgProps } from './types'
-import { Sankey } from './Sankey'
+import { DefaultLink, DefaultNode, SankeySvgProps } from './types.js'
+import { Sankey } from './Sankey.js'
 
 export const ResponsiveSankey = <
     N extends DefaultNode = DefaultNode,

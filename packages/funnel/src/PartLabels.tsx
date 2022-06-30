@@ -1,5 +1,5 @@
-import { PartLabel } from './PartLabel'
-import { FunnelDatum, FunnelPart } from './types'
+import { PartLabel } from './PartLabel.js'
+import { FunnelDatum, FunnelPart } from './types.js'
 
 interface PartLabelsProps<D extends FunnelDatum> {
     parts: FunnelPart<D>[]

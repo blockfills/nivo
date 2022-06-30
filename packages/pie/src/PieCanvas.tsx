@@ -12,9 +12,9 @@ import {
     useArcLinkLabels,
     drawCanvasArcLinkLabels,
 } from '@nivo/arcs'
-import { useNormalizedData, usePieFromBox } from './hooks'
-import { ComputedDatum, PieCanvasProps } from './types'
-import { defaultProps } from './props'
+import { useNormalizedData, usePieFromBox } from './hooks.js'
+import { ComputedDatum, PieCanvasProps } from './types.js'
+import { defaultProps } from './props.js'
 
 const InnerPieCanvas = <RawDatum,>({
     data,

@@ -4,17 +4,17 @@ import {
     SequentialColorScaleConfig,
     SequentialColorScaleValues,
     getSequentialColorScale,
-} from './sequentialColorScale'
+} from './sequentialColorScale.js'
 import {
     DivergingColorScaleConfig,
     DivergingColorScaleValues,
     getDivergingColorScale,
-} from './divergingColorScale'
+} from './divergingColorScale.js'
 import {
     QuantizeColorScaleConfig,
     QuantizeColorScaleValues,
     getQuantizeColorScale,
-} from './quantizeColorScale'
+} from './quantizeColorScale.js'
 
 export type ContinuousColorScaleConfig =
     | SequentialColorScaleConfig

@@ -1,4 +1,4 @@
-import { CalendarYearLegendsProps } from './types'
+import { CalendarYearLegendsProps } from './types.js'
 import { memo } from 'react'
 
 export const CalendarYearLegends = memo(({ years, legend, theme }: CalendarYearLegendsProps) => {

@@ -16,6 +16,13 @@ export const GridLine = memo(
     }) => {
         const theme = useTheme()
 
-        return <animated.line {...animatedProps} {...(theme.grid.line as unknown)} />
+        return (
+            <animated.line
+                style={{
+                    ...animatedProps,
+                    ...theme.grid.line,
+                }}
+            />
+        )
     }
 )

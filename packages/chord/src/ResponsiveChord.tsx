@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { Chord } from './Chord'
-import { ChordSvgProps } from './types'
+import { Chord } from './Chord.js'
+import { ChordSvgProps } from './types.js'
 
 export const ResponsiveChord = (props: Omit<ChordSvgProps, 'width' | 'height'>) => (
     <ResponsiveWrapper>

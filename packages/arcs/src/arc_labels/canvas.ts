@@ -1,6 +1,6 @@
 import { CompleteTheme } from '@nivo/core'
-import { DatumWithArcAndColor } from '../types'
-import { ArcLabel } from './useArcLabels'
+import { DatumWithArcAndColor } from '../types.js'
+import { ArcLabel } from './useArcLabels.js'
 
 export const drawCanvasArcLabels = <Datum extends DatumWithArcAndColor>(
     ctx: CanvasRenderingContext2D,

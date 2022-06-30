@@ -5,9 +5,9 @@ import { CanvasAxisProps, renderAxesToCanvas, renderGridLinesToCanvas } from '@n
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
 import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
-import { canvasDefaultProps, svgDefaultProps } from './props'
-import { useScatterPlot, useScatterPlotAnnotations } from './hooks'
-import { ScatterPlotCanvasProps, ScatterPlotDatum, ScatterPlotNodeData } from './types'
+import { canvasDefaultProps, svgDefaultProps } from './props.js'
+import { useScatterPlot, useScatterPlotAnnotations } from './hooks.js'
+import { ScatterPlotCanvasProps, ScatterPlotDatum, ScatterPlotNodeData } from './types.js'
 
 type InnerScatterPlotCanvasProps<RawDatum extends ScatterPlotDatum> = Omit<
     ScatterPlotCanvasProps<RawDatum>,

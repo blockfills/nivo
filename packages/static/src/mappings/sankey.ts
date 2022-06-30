@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Sankey, SankeySvgProps, sankeyAlignmentPropKeys } from '@nivo/sankey'
-import { OmitStrict } from '../types'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { blendMode, custom } from './common'
+import { OmitStrict } from '../types.js'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { blendMode, custom } from './common.js'
 
 // filter out all dynamic properties
 export type SankeyApiProps = OmitStrict<

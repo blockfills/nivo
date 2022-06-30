@@ -1,4 +1,4 @@
-import { ComputedNode, InputNode } from './types'
+import { ComputedNode, InputNode } from './types.js'
 
 export const renderCanvasNode = <Node extends InputNode>(
     ctx: CanvasRenderingContext2D,

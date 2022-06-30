@@ -1,9 +1,9 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Calendar, CalendarSvgProps } from '@nivo/calendar'
-import { custom } from './common'
-import { dimensions } from './commons/dimensions'
-import { OmitStrict } from '../types'
+import { custom } from './common.js'
+import { dimensions } from './commons/dimensions.js'
+import { OmitStrict } from '../types.js'
 
 export type CalendarApiProps = OmitStrict<
     CalendarSvgProps,

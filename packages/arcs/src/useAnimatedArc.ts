@@ -1,7 +1,7 @@
 import { useSpring } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
-import { Arc, ArcGenerator } from './types'
-import { interpolateArc } from './interpolateArc'
+import { Arc, ArcGenerator } from './types.js'
+import { interpolateArc } from './interpolateArc.js'
 
 /**
  * This hook can be used to animate a single arc,

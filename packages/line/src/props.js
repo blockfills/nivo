@@ -11,8 +11,8 @@ import { lineCurvePropType, blendModePropType, motionPropTypes, defsPropTypes } 
 import { ordinalColorsPropType } from '@nivo/colors'
 import { axisPropType } from '@nivo/axes'
 import { LegendPropShape } from '@nivo/legends'
-import PointTooltip from './PointTooltip'
-import SliceTooltip from './SliceTooltip'
+import PointTooltip from './PointTooltip.js'
+import SliceTooltip from './SliceTooltip.js'
 
 const commonPropTypes = {
     data: PropTypes.arrayOf(

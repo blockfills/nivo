@@ -1,7 +1,7 @@
 import { memo, useMemo } from 'react'
 import { animated, to } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
-import { HeatMapDatum, CellComponentProps } from './types'
+import { HeatMapDatum, CellComponentProps } from './types.js'
 
 const NonMemoizedHeatMapCellCircle = <Datum extends HeatMapDatum>({
     cell,

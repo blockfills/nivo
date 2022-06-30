@@ -1,12 +1,12 @@
 import { createElement, Fragment, ReactNode } from 'react'
 import { SvgWrapper, Container, useDimensions } from '@nivo/core'
-import { svgDefaultProps } from './props'
-import { useFunnel } from './hooks'
-import { Parts } from './Parts'
-import { PartLabels } from './PartLabels'
-import { Separators } from './Separators'
-import { FunnelAnnotations } from './FunnelAnnotations'
-import { FunnelDatum, FunnelLayerId, FunnelSvgProps } from './types'
+import { svgDefaultProps } from './props.js'
+import { useFunnel } from './hooks.js'
+import { Parts } from './Parts.js'
+import { PartLabels } from './PartLabels.js'
+import { Separators } from './Separators.js'
+import { FunnelAnnotations } from './FunnelAnnotations.js'
+import { FunnelDatum, FunnelLayerId, FunnelSvgProps } from './types.js'
 
 type InnerFunnelProps<D extends FunnelDatum> = Omit<
     FunnelSvgProps<D>,

@@ -1,5 +1,5 @@
-import { Separator } from './Separator'
-import { SeparatorProps as SeparatorType } from './types'
+import { Separator } from './Separator.js'
+import { SeparatorProps as SeparatorType } from './types.js'
 
 interface SeparatorsProps {
     beforeSeparators: SeparatorType[]

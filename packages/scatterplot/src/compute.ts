@@ -9,7 +9,7 @@ import {
     ScatterPlotDatum,
     ScatterPlotNodeData,
     ScatterPlotNodeDynamicSizeSpec,
-} from './types'
+} from './types.js'
 
 const isDynamicSizeSpec = <RawDatum extends ScatterPlotDatum>(
     size: ScatterPlotCommonProps<RawDatum>['nodeSize']

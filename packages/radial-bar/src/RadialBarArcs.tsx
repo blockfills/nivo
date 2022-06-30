@@ -1,7 +1,7 @@
 import { createElement, MouseEvent, useCallback } from 'react'
 import { ArcsLayer, ArcGenerator } from '@nivo/arcs'
 import { useTooltip } from '@nivo/tooltip'
-import { ComputedBar, RadialBarCommonProps, RadialBarDatum } from './types'
+import { ComputedBar, RadialBarCommonProps, RadialBarDatum } from './types.js'
 
 interface RadialBarArcsProps<D extends RadialBarDatum> {
     center: [number, number]

@@ -1,8 +1,8 @@
 import { createElement, memo, useMemo, MouseEvent } from 'react'
 import { SpringValues, animated } from '@react-spring/web'
 import { useTooltip } from '@nivo/tooltip'
-import { ArcAnimatedProps, ArcDatum, ArcGenerator, ChordCommonProps } from './types'
-import { computeArcPath } from './compute'
+import { ArcAnimatedProps, ArcDatum, ArcGenerator, ChordCommonProps } from './types.js'
+import { computeArcPath } from './compute.js'
 
 interface ChordArcProps {
     arc: ArcDatum

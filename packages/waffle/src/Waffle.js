@@ -12,10 +12,10 @@ import { TransitionMotion, spring } from 'react-motion'
 import { setDisplayName } from '@nivo/recompose'
 import { LegacyContainer, SvgWrapper } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
-import { WafflePropTypes } from './props'
-import enhance from './enhance'
-import { applyDataToGrid } from './compute'
-import WaffleCellTooltip from './WaffleCellTooltip'
+import { WafflePropTypes } from './props.js'
+import enhance from './enhance.js'
+import { applyDataToGrid } from './compute.js'
+import WaffleCellTooltip from './WaffleCellTooltip.js'
 
 export class Waffle extends Component {
     static propTypes = WafflePropTypes

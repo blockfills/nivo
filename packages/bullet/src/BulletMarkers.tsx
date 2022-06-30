@@ -8,7 +8,7 @@ import {
     ComputedMarkersDatum,
     MarkerWithPosition,
     PositionWithColor,
-} from './types'
+} from './types.js'
 
 type MouseEventWithDatum = (
     datum: ComputedMarkersDatum,

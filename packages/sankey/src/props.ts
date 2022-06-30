@@ -1,8 +1,8 @@
 import { sankeyCenter, sankeyJustify, sankeyLeft, sankeyRight } from 'd3-sankey'
-import { SankeyLayerId, SankeyNodeDatum, SankeyAlignType } from './types'
+import { SankeyLayerId, SankeyNodeDatum, SankeyAlignType } from './types.js'
 import { InheritedColorConfig } from '@nivo/colors'
-import { SankeyNodeTooltip } from './SankeyNodeTooltip'
-import { SankeyLinkTooltip } from './SankeyLinkTooltip'
+import { SankeyNodeTooltip } from './SankeyNodeTooltip.js'
+import { SankeyLinkTooltip } from './SankeyLinkTooltip.js'
 
 export const sankeyAlignmentPropMapping = {
     center: sankeyCenter,

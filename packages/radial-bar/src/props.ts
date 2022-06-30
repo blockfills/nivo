@@ -1,6 +1,6 @@
 import { InheritedColorConfig } from '@nivo/colors'
-import { ComputedBar, RadialBarLayerId } from './types'
-import { RadialBarTooltip } from './RadialBarTooltip'
+import { ComputedBar, RadialBarLayerId } from './types.js'
+import { RadialBarTooltip } from './RadialBarTooltip.js'
 
 export const commonDefaultProps = {
     maxValue: 'auto' as const,

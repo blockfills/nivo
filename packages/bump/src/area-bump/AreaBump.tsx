@@ -7,9 +7,9 @@ import {
     Container,
 } from '@nivo/core'
 import { Grid, Axes } from '@nivo/axes'
-import { useAreaBump } from './hooks'
-import { Area } from './Area'
-import { AreasLabels } from './AreasLabels'
+import { useAreaBump } from './hooks.js'
+import { Area } from './Area.js'
+import { AreasLabels } from './AreasLabels.js'
 import {
     AreaBumpSvgProps,
     AreaBumpDatum,
@@ -17,8 +17,8 @@ import {
     AreaBumpLayerId,
     AreaBumpCustomLayerProps,
     AreaBumpSerieExtraProps,
-} from './types'
-import { areaBumpSvgDefaultProps } from './defaults'
+} from './types.js'
+import { areaBumpSvgDefaultProps } from './defaults.js'
 
 type InnerAreaBumpProps<
     Datum extends AreaBumpDatum,

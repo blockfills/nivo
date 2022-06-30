@@ -6,10 +6,10 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { LinearGradient } from './LinearGradient'
+import { LinearGradient } from './LinearGradient.js'
 
 export const gradientTypes = {
     linearGradient: LinearGradient,
 }
 
-export * from './LinearGradient'
+export * from './LinearGradient.js'

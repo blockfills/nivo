@@ -1,5 +1,5 @@
 import { ComponentType, ValidationMap } from 'react'
-import { setStatic } from './setStatic'
+import { setStatic } from './setStatic.js'
 
 export const setPropTypes = <P>(
     propTypes: ValidationMap<P>

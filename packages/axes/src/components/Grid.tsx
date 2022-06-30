@@ -1,7 +1,7 @@
 import { useMemo, memo } from 'react'
 import { ScaleValue, AnyScale, TicksSpec } from '@nivo/scales'
-import { GridLines } from './GridLines'
-import { computeGridLines } from '../compute'
+import { GridLines } from './GridLines.js'
+import { computeGridLines } from '../compute.js'
 
 export const Grid = memo(
     <X extends ScaleValue, Y extends ScaleValue>({

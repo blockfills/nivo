@@ -1,4 +1,4 @@
-import { BulletTooltipProps } from './types'
+import { BulletTooltipProps } from './types.js'
 import { BasicTooltip } from '@nivo/tooltip'
 
 export const BulletTooltip = ({ color, v0, v1 }: BulletTooltipProps) => {

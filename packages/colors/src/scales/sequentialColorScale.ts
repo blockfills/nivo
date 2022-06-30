@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { scaleSequential } from 'd3-scale'
-import { colorInterpolators, ColorInterpolatorId } from '../schemes'
+import { colorInterpolators, ColorInterpolatorId } from '../schemes/index.js'
 
 export interface SequentialColorScaleConfig {
     type: 'sequential'

@@ -1,7 +1,7 @@
 import { ModernMotionProps } from '@nivo/core'
-import { LineTooltip } from './LineTooltip'
-import { Point } from './Point'
-import { BumpCommonProps, BumpPointComponent, DefaultBumpDatum } from './types'
+import { LineTooltip } from './LineTooltip.js'
+import { Point } from './Point.js'
+import { BumpCommonProps, BumpPointComponent, DefaultBumpDatum } from './types.js'
 
 const commonDefaultProps: Omit<
     BumpCommonProps<DefaultBumpDatum, Record<string, unknown>>,

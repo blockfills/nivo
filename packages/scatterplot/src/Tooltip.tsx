@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { ScatterPlotTooltipProps, ScatterPlotDatum } from './types'
+import { ScatterPlotTooltipProps, ScatterPlotDatum } from './types.js'
 
 export const Tooltip = <RawDatum extends ScatterPlotDatum>({
     node,

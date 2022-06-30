@@ -1,9 +1,9 @@
 import { createElement, memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from '@react-spring/web'
-import { useTheme } from '../../theming'
-import { useMotionConfig } from '../../motion'
-import DotsItemSymbol from './DotsItemSymbol'
+import { useTheme } from '../../theming.js'
+import { useMotionConfig } from '../../motion.js'
+import DotsItemSymbol from './DotsItemSymbol.js'
 
 const DotsItem = ({
     x,

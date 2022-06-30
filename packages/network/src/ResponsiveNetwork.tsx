@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { InputLink, InputNode, NetworkSvgProps } from './types'
-import { Network } from './Network'
+import { InputLink, InputNode, NetworkSvgProps } from './types.js'
+import { Network } from './Network.js'
 
 export const ResponsiveNetwork = <
     Node extends InputNode = InputNode,

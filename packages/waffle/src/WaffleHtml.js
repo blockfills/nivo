@@ -11,10 +11,10 @@ import partial from 'lodash/partial'
 import { setDisplayName } from '@nivo/recompose'
 import { TransitionMotion, spring } from 'react-motion'
 import { LegacyContainer } from '@nivo/core'
-import enhance from './enhance'
-import { WaffleHtmlPropTypes } from './props'
-import { applyDataToGrid } from './compute'
-import WaffleCellTooltip from './WaffleCellTooltip'
+import enhance from './enhance.js'
+import { WaffleHtmlPropTypes } from './props.js'
+import { applyDataToGrid } from './compute.js'
+import WaffleCellTooltip from './WaffleCellTooltip.js'
 
 class WaffleHtml extends Component {
     static propTypes = WaffleHtmlPropTypes

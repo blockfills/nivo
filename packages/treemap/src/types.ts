@@ -10,7 +10,7 @@ import {
     SvgDefsAndFill,
 } from '@nivo/core'
 import { InheritedColorConfig, OrdinalColorScaleConfig, DatumIdentityAccessor } from '@nivo/colors'
-import { TileType } from './tiling'
+import { TileType } from './tiling.js'
 
 export interface DefaultTreeMapDatum {
     id: string

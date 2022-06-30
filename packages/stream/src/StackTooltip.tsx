@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { TableTooltip, Chip } from '@nivo/tooltip'
-import { StackTooltipProps } from './types'
+import { StackTooltipProps } from './types.js'
 
 export const StackTooltip = ({ slice }: StackTooltipProps) => {
     const rows = useMemo(

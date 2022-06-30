@@ -1,7 +1,7 @@
 import { createFactory } from 'react'
-import { setDisplayName } from './setDisplayName'
-import { DefaultingInferableComponentEnhancer } from './types'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { DefaultingInferableComponentEnhancer } from './types.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 export const defaultProps =

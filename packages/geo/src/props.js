@@ -9,8 +9,8 @@
 import PropTypes from 'prop-types'
 import { quantizeColorScalePropType } from '@nivo/core'
 import { inheritedColorPropType } from '@nivo/colors'
-import { projectionById } from './hooks'
-import ChoroplethTooltip from './ChoroplethTooltip'
+import { projectionById } from './hooks.js'
+import ChoroplethTooltip from './ChoroplethTooltip.js'
 
 const commonPropTypes = {
     features: PropTypes.arrayOf(

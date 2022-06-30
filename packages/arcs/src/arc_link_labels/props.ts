@@ -1,7 +1,7 @@
 import { PropertyAccessor } from '@nivo/core'
 import { InheritedColorConfig } from '@nivo/colors'
-import { ArcLinkLabelComponent } from './ArcLinkLabelsLayer'
-import { DatumWithArcAndColor } from '../types'
+import { ArcLinkLabelComponent } from './ArcLinkLabelsLayer.js'
+import { DatumWithArcAndColor } from '../types.js'
 
 export interface ArcLinkLabelsProps<Datum extends DatumWithArcAndColor> {
     arcLinkLabel: PropertyAccessor<Datum, string>

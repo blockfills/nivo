@@ -1,9 +1,9 @@
 import { createElement } from 'react'
 import { usePropertyAccessor } from '@nivo/core'
-import { DatumWithArcAndColor } from '../types'
-import { useArcLinkLabelsTransition } from './useArcLinkLabelsTransition'
-import { ArcLinkLabelsProps } from './props'
-import { ArcLinkLabel, ArcLinkLabelProps } from './ArcLinkLabel'
+import { DatumWithArcAndColor } from '../types.js'
+import { useArcLinkLabelsTransition } from './useArcLinkLabelsTransition.js'
+import { ArcLinkLabelsProps } from './props.js'
+import { ArcLinkLabel, ArcLinkLabelProps } from './ArcLinkLabel.js'
 
 export type ArcLinkLabelComponent<Datum extends DatumWithArcAndColor> = (
     props: ArcLinkLabelProps<Datum>

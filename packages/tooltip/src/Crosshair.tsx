@@ -1,6 +1,6 @@
 import { memo } from 'react'
-import { CrosshairLine } from './CrosshairLine'
-import { CrosshairType } from './types'
+import { CrosshairLine } from './CrosshairLine.js'
+import { CrosshairType } from './types.js'
 
 interface CrosshairProps {
     width: number

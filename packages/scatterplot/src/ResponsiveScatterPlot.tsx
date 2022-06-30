@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { ScatterPlot } from './ScatterPlot'
-import { ScatterPlotDatum, ScatterPlotSvgProps } from './types'
+import { ScatterPlot } from './ScatterPlot.js'
+import { ScatterPlotDatum, ScatterPlotSvgProps } from './types.js'
 
 export const ResponsiveScatterPlot = <RawDatum extends ScatterPlotDatum>(
     props: Omit<ScatterPlotSvgProps<RawDatum>, 'width' | 'height'>

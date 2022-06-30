@@ -1,11 +1,6 @@
 {
   "name": "@nivo/recompose",
-  "version": "0.79.0",
-  "keywords": [
-    "nivo",
-    "react",
-    "recompose"
-  ],
+  "version": "0.79.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/plouc/nivo.git",
@@ -16,23 +11,35 @@
     "name": "Raphaël Benitte",
     "url": "https://github.com/plouc"
   },
-  "main": "./dist/nivo-recompose.cjs.js",
-  "module": "./dist/nivo-recompose.es.js",
-  "typings": "./dist/types/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
   "files": [
-    "README.md",
-    "LICENSE.md",
-    "dist/",
-    "!dist/tsconfig.tsbuildinfo"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsc --build",
+    "prepack": "yarn run build"
+  },
   "dependencies": {
+    "react": "^18.2.0",
     "react-lifecycles-compat": "^3.0.4"
   },
   "devDependencies": {
-    "@types/react-lifecycles-compat": "^3.0.1"
+    "@types/react": "^18.0.14",
+    "@types/react-lifecycles-compat": "^3.0.1",
+    "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "react": ">= 16.14.0 < 18.0.0"
+    "@types/react": "^16.14 || 17.x || 18.x",
+    "react": "^16.14 || 17.x || 18.x"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

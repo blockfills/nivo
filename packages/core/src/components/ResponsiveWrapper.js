@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { useMeasure } from '../hooks'
+import { useMeasure } from '../hooks.js'
 
 const ResponsiveWrapper = ({ children }) => {
     const [measureRef, bounds] = useMeasure()

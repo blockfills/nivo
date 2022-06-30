@@ -5,8 +5,8 @@ import {
     TooltipStateContext,
     TooltipStateContextData,
     hiddenTooltipState,
-} from './context'
-import { TooltipAnchor } from './types'
+} from './context.js'
+import { TooltipAnchor } from './types.js'
 
 export const useTooltipHandlers = (container: MutableRefObject<HTMLDivElement>) => {
     const [state, setState] = useState<TooltipStateContextData>(hiddenTooltipState)

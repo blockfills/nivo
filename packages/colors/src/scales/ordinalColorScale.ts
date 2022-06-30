@@ -7,7 +7,7 @@ import {
     isCategoricalColorScheme,
     isSequentialColorScheme,
     isDivergingColorScheme,
-} from '../schemes'
+} from '../schemes/index.js'
 
 /**
  * Static color.

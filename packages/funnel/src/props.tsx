@@ -1,6 +1,6 @@
 // @ts-ignore
 import { MotionConfigProvider } from '@nivo/core'
-import { FunnelLayerId } from './types'
+import { FunnelLayerId } from './types.js'
 
 export const svgDefaultProps = {
     layers: ['separators', 'parts', 'labels', 'annotations'] as FunnelLayerId[],

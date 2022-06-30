@@ -7,13 +7,13 @@ import {
     SvgWrapper,
 } from '@nivo/core'
 import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { CirclePackingLayerId, CirclePackingSvgProps, ComputedDatum } from './types'
-import { useCirclePacking, useCirclePackingZoom, useCirclePackingLayerContext } from './hooks'
-import { defaultProps } from './props'
-import { Circles } from './Circles'
-import { CircleSvg } from './CircleSvg'
-import { Labels } from './Labels'
-import { LabelSvg } from './LabelSvg'
+import { CirclePackingLayerId, CirclePackingSvgProps, ComputedDatum } from './types.js'
+import { useCirclePacking, useCirclePackingZoom, useCirclePackingLayerContext } from './hooks.js'
+import { defaultProps } from './props.js'
+import { Circles } from './Circles.js'
+import { CircleSvg } from './CircleSvg.js'
+import { Labels } from './Labels.js'
+import { LabelSvg } from './LabelSvg.js'
 
 type InnerCirclePackingProps<RawDatum> = Partial<
     Omit<

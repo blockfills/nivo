@@ -28,7 +28,7 @@ export const blendModes = [
 
 export const blendModePropType = PropTypes.oneOf(blendModes)
 
-export * from './colors'
-export * from './curve'
-export * from './defs'
-export * from './stack'
+export * from './colors.js'
+export * from './curve.js'
+export * from './defs.js'
+export * from './stack.js'

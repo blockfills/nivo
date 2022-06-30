@@ -9,11 +9,11 @@ import {
 import { Grid, Axes } from '@nivo/axes'
 import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
 import { BoxLegendSvg } from '@nivo/legends'
-import { SvgProps, LayerId, DimensionDatum } from './types'
-import { defaultProps } from './props'
-import { useMarimekko, useLayerContext, useLegendData } from './hooks'
-import { Bars } from './Bars'
-import { BarTooltip } from './BarTooltip'
+import { SvgProps, LayerId, DimensionDatum } from './types.js'
+import { defaultProps } from './props.js'
+import { useMarimekko, useLayerContext, useLegendData } from './hooks.js'
+import { Bars } from './Bars.js'
+import { BarTooltip } from './BarTooltip.js'
 
 const InnerMarimekko = <RawDatum,>({
     data,

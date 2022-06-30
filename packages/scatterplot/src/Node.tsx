@@ -1,5 +1,5 @@
 import { animated } from '@react-spring/web'
-import { ScatterPlotDatum, ScatterPlotNodeProps } from './types'
+import { ScatterPlotDatum, ScatterPlotNodeProps } from './types.js'
 import { useCallback } from 'react'
 
 const interpolateRadius = (size: number) => size / 2

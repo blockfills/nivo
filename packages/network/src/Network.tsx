@@ -1,10 +1,10 @@
 import { Fragment, ReactNode, createElement, useMemo } from 'react'
 import { Container, useDimensions, SvgWrapper } from '@nivo/core'
-import { svgDefaultProps } from './defaults'
-import { useNetwork } from './hooks'
-import { NetworkLinks } from './NetworkLinks'
-import { NetworkNodes } from './NetworkNodes'
-import { NetworkNodeAnnotations } from './NetworkNodeAnnotations'
+import { svgDefaultProps } from './defaults.js'
+import { useNetwork } from './hooks.js'
+import { NetworkLinks } from './NetworkLinks.js'
+import { NetworkNodes } from './NetworkNodes.js'
+import { NetworkNodeAnnotations } from './NetworkNodeAnnotations.js'
 import {
     InputNode,
     LayerId,
@@ -12,7 +12,7 @@ import {
     NetworkSvgProps,
     InputLink,
     CustomLayerProps,
-} from './types'
+} from './types.js'
 
 type InnerNetworkProps<Node extends InputNode, Link extends InputLink> = Omit<
     NetworkSvgProps<Node, Link>,

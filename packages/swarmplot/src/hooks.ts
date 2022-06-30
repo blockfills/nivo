@@ -11,14 +11,14 @@ import {
     getSizeGenerator,
     computeForces,
     computeNodes,
-} from './compute'
+} from './compute.js'
 import {
     SwarmPlotCommonProps,
     ComputedDatum,
     SizeSpec,
     SwarmPlotCustomLayerProps,
     MouseHandlers,
-} from './types'
+} from './types.js'
 
 export const useValueScale = <RawDatum>({
     width,

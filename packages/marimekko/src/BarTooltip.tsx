@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { BarDatum } from './types'
+import { BarDatum } from './types.js'
 
 export const BarTooltip = <RawDatum,>({ bar }: { bar: BarDatum<RawDatum> }) => (
     <BasicTooltip

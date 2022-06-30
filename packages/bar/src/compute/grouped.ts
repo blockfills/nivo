@@ -1,8 +1,8 @@
 import { Margin } from '@nivo/core'
 import { OrdinalColorScale } from '@nivo/colors'
 import { Scale, ScaleBand, computeScale } from '@nivo/scales'
-import { BarDatum, BarSvgProps, ComputedBarDatum, ComputedDatum } from '../types'
-import { coerceValue, filterNullValues, getIndexScale, normalizeData } from './common'
+import { BarDatum, BarSvgProps, ComputedBarDatum, ComputedDatum } from '../types.js'
+import { coerceValue, filterNullValues, getIndexScale, normalizeData } from './common.js'
 
 type Params<RawDatum, XScaleInput, YScaleInput> = {
     data: RawDatum[]

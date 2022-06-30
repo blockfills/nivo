@@ -6,7 +6,7 @@ import {
     BumpComputedSerie,
     BumpSeriePoint,
     BumpSerieExtraProps,
-} from './types'
+} from './types.js'
 
 export const computeSeries = <Datum extends BumpDatum, ExtraProps extends BumpSerieExtraProps>({
     width,

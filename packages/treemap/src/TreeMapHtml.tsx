@@ -1,9 +1,9 @@
 import { createElement, Fragment, ReactNode } from 'react'
 import { Container, useDimensions } from '@nivo/core'
-import { useCustomLayerProps, useTreeMap } from './hooks'
-import { TreeMapNodes } from './TreeMapNodes'
-import { DefaultTreeMapDatum, TreeMapCommonProps, TreeMapHtmlProps, LayerId } from './types'
-import { htmlDefaultProps, svgDefaultProps } from './defaults'
+import { useCustomLayerProps, useTreeMap } from './hooks.js'
+import { TreeMapNodes } from './TreeMapNodes.js'
+import { DefaultTreeMapDatum, TreeMapCommonProps, TreeMapHtmlProps, LayerId } from './types.js'
+import { htmlDefaultProps, svgDefaultProps } from './defaults.js'
 
 type InnerTreeMapHtmlProps<Datum extends object> = Omit<
     TreeMapHtmlProps<Datum>,

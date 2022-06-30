@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { DefaultHeatMapDatum, HeatMapDatum, HeatMapSvgProps } from './types'
-import { HeatMap } from './HeatMap'
+import { DefaultHeatMapDatum, HeatMapDatum, HeatMapSvgProps } from './types.js'
+import { HeatMap } from './HeatMap.js'
 
 export const ResponsiveHeatMap = <
     Datum extends HeatMapDatum = DefaultHeatMapDatum,

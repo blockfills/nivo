@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Bar, BarSvgProps } from '@nivo/bar'
-import { OmitStrict } from '../types'
-import { custom, axes } from './common'
-import { dimensions } from './commons/dimensions'
-import { inheritedColor, ordinalColors } from './commons/colors'
+import { OmitStrict } from '../types.js'
+import { custom, axes } from './common.js'
+import { dimensions } from './commons/dimensions.js'
+import { inheritedColor, ordinalColors } from './commons/colors.js'
 
 // filter out all dynamic properties
 export type BarApiProps = OmitStrict<

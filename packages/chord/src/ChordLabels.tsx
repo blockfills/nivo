@@ -8,7 +8,7 @@ import {
     useTheme,
 } from '@nivo/core'
 import { useMotionConfig } from '@nivo/core'
-import { ArcDatum, ChordCommonProps } from './types'
+import { ArcDatum, ChordCommonProps } from './types.js'
 import { useInheritedColor } from '@nivo/colors'
 
 interface ChordLabelsProps {

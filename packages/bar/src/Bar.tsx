@@ -1,7 +1,7 @@
 import { Axes, Grid } from '@nivo/axes'
-import { BarAnnotations } from './BarAnnotations'
-import { BarDatum, BarLayer, BarLayerId, BarSvgProps, ComputedBarDatumWithValue } from './types'
-import { BarLegends } from './BarLegends'
+import { BarAnnotations } from './BarAnnotations.js'
+import { BarDatum, BarLayer, BarLayerId, BarSvgProps, ComputedBarDatumWithValue } from './types.js'
+import { BarLegends } from './BarLegends.js'
 import {
     CartesianMarkers,
     Container,
@@ -12,9 +12,9 @@ import {
     useMotionConfig,
 } from '@nivo/core'
 import { Fragment, ReactNode, createElement, useMemo } from 'react'
-import { svgDefaultProps } from './props'
+import { svgDefaultProps } from './props.js'
 import { useTransition } from '@react-spring/web'
-import { useBar } from './hooks'
+import { useBar } from './hooks.js'
 
 type InnerBarProps<RawDatum extends BarDatum> = Omit<
     BarSvgProps<RawDatum>,

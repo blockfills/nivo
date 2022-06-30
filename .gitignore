@@ -18,3 +18,7 @@ build
 /api/app.js
 # Local Netlify folder
 .netlify
+
+/.yarn/*
+!/.yarn/plugins
+!/.yarn/sdks

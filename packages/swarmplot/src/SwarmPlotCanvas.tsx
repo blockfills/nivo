@@ -7,9 +7,9 @@ import { AnyScale } from '@nivo/scales'
 import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
 import { useTooltip } from '@nivo/tooltip'
 import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
-import { ComputedDatum, SwarmPlotCanvasProps } from './types'
-import { defaultProps } from './props'
-import { useSwarmPlot } from './hooks'
+import { ComputedDatum, SwarmPlotCanvasProps } from './types.js'
+import { defaultProps } from './props.js'
+import { useSwarmPlot } from './hooks.js'
 
 export const renderCircleDefault = <RawDatum,>(
     ctx: CanvasRenderingContext2D,

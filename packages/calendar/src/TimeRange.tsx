@@ -7,12 +7,12 @@ import {
     computeCellPositions,
     computeMonthLegends,
     computeTotalDays,
-} from './compute/timeRange'
-import { useMonthLegends, useColorScale } from './hooks'
-import { TimeRangeDay } from './TimeRangeDay'
-import { CalendarMonthLegends } from './CalendarMonthLegends'
-import { TimeRangeSvgProps } from './types'
-import { timeRangeDefaultProps } from './props'
+} from './compute/timeRange.js'
+import { useMonthLegends, useColorScale } from './hooks.js'
+import { TimeRangeDay } from './TimeRangeDay.js'
+import { CalendarMonthLegends } from './CalendarMonthLegends.js'
+import { TimeRangeSvgProps } from './types.js'
+import { timeRangeDefaultProps } from './props.js'
 
 const InnerTimeRange = ({
     margin: partialMargin,

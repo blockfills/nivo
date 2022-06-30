@@ -1,12 +1,12 @@
-import { sankeyLinkHorizontal, sankeyLinkVertical } from './links'
+import { sankeyLinkHorizontal, sankeyLinkVertical } from './links.js'
 import {
     DefaultLink,
     DefaultNode,
     SankeyCommonProps,
     SankeyLinkDatum,
     SankeyNodeDatum,
-} from './types'
-import { SankeyLinksItem } from './SankeyLinksItem'
+} from './types.js'
+import { SankeyLinksItem } from './SankeyLinksItem.js'
 import { useMemo } from 'react'
 
 interface SankeyLinksProps<N extends DefaultNode, L extends DefaultLink> {

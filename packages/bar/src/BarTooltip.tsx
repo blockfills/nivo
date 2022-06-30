@@ -1,4 +1,4 @@
-import { BarTooltipProps } from './types'
+import { BarTooltipProps } from './types.js'
 import { BasicTooltip } from '@nivo/tooltip'
 
 export const BarTooltip = <RawDatum,>({ color, label, ...data }: BarTooltipProps<RawDatum>) => {

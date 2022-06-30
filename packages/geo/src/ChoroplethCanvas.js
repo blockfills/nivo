@@ -11,8 +11,8 @@ import { geoContains } from 'd3-geo'
 import { getRelativeCursor, withContainer, useDimensions, useTheme } from '@nivo/core'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
-import { ChoroplethCanvasDefaultProps, ChoroplethCanvasPropTypes } from './props'
-import { useGeoMap, useChoropleth } from './hooks'
+import { ChoroplethCanvasDefaultProps, ChoroplethCanvasPropTypes } from './props.js'
+import { useGeoMap, useChoropleth } from './hooks.js'
 
 const getFeatureFromMouseEvent = (event, el, features, projection) => {
     const [x, y] = getRelativeCursor(el, event)

@@ -1,6 +1,6 @@
 import { useSpring, animated } from '@react-spring/web'
 import { useMotionConfig, useTheme } from '@nivo/core'
-import { defaultProps } from './props'
+import { defaultProps } from './props.js'
 
 export const DotAnnotationOutline = ({
     x,

@@ -1,14 +1,14 @@
 import { createElement, memo } from 'react'
 import { useTransition } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
-import { useInteractiveTreeMapNodes } from './hooks'
+import { useInteractiveTreeMapNodes } from './hooks.js'
 import {
     ComputedNode,
     TreeMapCommonProps,
     NodeAnimatedProps,
     NodeComponent,
     ComputedNodeWithHandlers,
-} from './types'
+} from './types.js'
 
 const getAnimatedNodeProps = <Datum extends object>(
     node: ComputedNodeWithHandlers<Datum>

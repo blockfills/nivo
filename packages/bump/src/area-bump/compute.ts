@@ -6,7 +6,7 @@ import {
     AreaBumpDataProps,
     AreaBumpDatum,
     AreaBumpSerieExtraProps,
-} from './types'
+} from './types.js'
 
 export const computeSeries = <
     Datum extends AreaBumpDatum,

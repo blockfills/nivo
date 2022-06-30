@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { CalendarCanvas } from './CalendarCanvas'
-import { CalendarCanvasProps } from './types'
+import { CalendarCanvas } from './CalendarCanvas.js'
+import { CalendarCanvasProps } from './types.js'
 
 export const ResponsiveCalendarCanvas = (props: Omit<CalendarCanvasProps, 'width' | 'height'>) => (
     <ResponsiveWrapper>

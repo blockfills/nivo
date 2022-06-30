@@ -6,7 +6,7 @@ import {
     ScatterPlotDatum,
     ScatterPlotNode,
     ScatterPlotNodeData,
-} from './types'
+} from './types.js'
 import { createElement, useCallback } from 'react'
 
 interface NodesProps<RawDatum extends ScatterPlotDatum> {

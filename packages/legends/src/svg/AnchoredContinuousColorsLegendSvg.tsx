@@ -1,7 +1,7 @@
-import { AnchoredContinuousColorsLegendProps } from '../types'
-import { computePositionFromAnchor } from '../compute'
-import { continuousColorsLegendDefaults } from '../defaults'
-import { ContinuousColorsLegendSvg } from './ContinuousColorsLegendSvg'
+import { AnchoredContinuousColorsLegendProps } from '../types.js'
+import { computePositionFromAnchor } from '../compute.js'
+import { continuousColorsLegendDefaults } from '../defaults.js'
+import { ContinuousColorsLegendSvg } from './ContinuousColorsLegendSvg.js'
 
 export const AnchoredContinuousColorsLegendSvg = ({
     containerWidth,

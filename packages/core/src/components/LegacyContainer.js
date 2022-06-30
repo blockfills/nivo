@@ -14,10 +14,10 @@ import {
     useTooltipHandlers,
     Tooltip,
 } from '@nivo/tooltip'
-import noop from '../lib/noop'
-import { ThemeProvider } from '../theming'
-import { MotionConfigProvider } from '../motion'
-import { ConditionalWrapper } from './ConditionalWrapper'
+import noop from '../lib/noop.js'
+import { ThemeProvider } from '../theming.js'
+import { MotionConfigProvider } from '../motion.js'
+import { ConditionalWrapper } from './ConditionalWrapper.js'
 
 const containerStyle = {
     position: 'relative',

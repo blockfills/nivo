@@ -1,5 +1,5 @@
 import { NumberValue, scaleLinear, ScaleLinear as D3ScaleLinear } from 'd3-scale'
-import { ScaleLinearSpec, ScaleLinear, ComputedSerieAxis, ScaleAxis } from './types'
+import { ScaleLinearSpec, ScaleLinear, ComputedSerieAxis, ScaleAxis } from './types.js'
 
 export const createLinearScale = <Output extends NumberValue>(
     {

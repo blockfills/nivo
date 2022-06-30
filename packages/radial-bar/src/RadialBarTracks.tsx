@@ -1,5 +1,5 @@
 import { ArcGenerator, ArcsLayer, ArcTransitionMode } from '@nivo/arcs'
-import { RadialBarTrackDatum } from './types'
+import { RadialBarTrackDatum } from './types.js'
 
 interface RadialBarTracksProps {
     center: [number, number]

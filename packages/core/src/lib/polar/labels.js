@@ -1,5 +1,5 @@
-import { positionFromAngle, radiansToDegrees } from './utils'
-import { textPropsByEngine } from '../bridge'
+import { positionFromAngle, radiansToDegrees } from './utils.js'
+import { textPropsByEngine } from '../bridge.js'
 
 /**
  * @param {number} radius

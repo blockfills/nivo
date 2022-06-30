@@ -1,6 +1,6 @@
 import { ModernMotionProps, SvgDefsAndFill } from '@nivo/core'
-import { AreaBumpCommonProps, AreaBumpComputedSerie, DefaultAreaBumpDatum } from './types'
-import { AreaTooltip } from './AreaTooltip'
+import { AreaBumpCommonProps, AreaBumpComputedSerie, DefaultAreaBumpDatum } from './types.js'
+import { AreaTooltip } from './AreaTooltip.js'
 
 const commonDefaultProps: Omit<
     AreaBumpCommonProps<DefaultAreaBumpDatum, Record<string, unknown>>,

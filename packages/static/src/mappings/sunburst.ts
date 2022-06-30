@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Sunburst, SunburstSvgProps } from '@nivo/sunburst'
-import { custom } from './common'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { OmitStrict } from '../types'
+import { custom } from './common.js'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { OmitStrict } from '../types.js'
 
 export type SunburstApiProps = OmitStrict<
     SunburstSvgProps<any>,

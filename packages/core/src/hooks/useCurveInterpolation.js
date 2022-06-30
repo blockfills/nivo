@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { curveFromProp } from '../props'
+import { curveFromProp } from '../props.js'
 
 /**
  * Transform d3 curve interpolation identifier

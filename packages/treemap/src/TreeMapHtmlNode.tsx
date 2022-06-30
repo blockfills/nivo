@@ -1,8 +1,8 @@
 import { memo } from 'react'
 import { animated } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
-import { NodeProps } from './types'
-import { htmlNodeTransform, htmlLabelTransform, htmlParentLabelTransform } from './transitions'
+import { NodeProps } from './types.js'
+import { htmlNodeTransform, htmlLabelTransform, htmlParentLabelTransform } from './transitions.js'
 
 const NonMemoizedTreeMapHtmlNode = <Datum extends object>({
     node,

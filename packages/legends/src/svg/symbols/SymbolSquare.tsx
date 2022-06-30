@@ -1,4 +1,4 @@
-import { SymbolProps } from './types'
+import { SymbolProps } from './types.js'
 
 export const SymbolSquare = ({
     x,

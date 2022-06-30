@@ -1,6 +1,6 @@
 import { ResponsiveWrapper } from '@nivo/core'
-import { TimeRange } from './TimeRange'
-import { TimeRangeSvgProps } from './types'
+import { TimeRange } from './TimeRange.js'
+import { TimeRangeSvgProps } from './types.js'
 
 export const ResponsiveTimeRange = (props: Omit<TimeRangeSvgProps, 'height' | 'width'>) => (
     <ResponsiveWrapper>

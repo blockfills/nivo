@@ -5,8 +5,8 @@ import { useInheritedColor, useOrdinalColorScale } from '@nivo/colors'
 import { useTheme, useValueFormatter } from '@nivo/core'
 import { useAnnotations } from '@nivo/annotations'
 import { useTooltip, TooltipActionsContextData } from '@nivo/tooltip'
-import { svgDefaultProps as defaults } from './props'
-import { PartTooltip, PartTooltipProps } from './PartTooltip'
+import { svgDefaultProps as defaults } from './props.js'
+import { PartTooltip, PartTooltipProps } from './PartTooltip.js'
 import {
     FunnelDatum,
     FunnelCommonProps,
@@ -18,7 +18,7 @@ import {
     FunnelAreaPoint,
     FunnelBorderGenerator,
     Position,
-} from './types'
+} from './types.js'
 
 export const computeShapeGenerators = <D extends FunnelDatum>(
     interpolation: FunnelCommonProps<D>['interpolation'],

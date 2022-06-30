@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { arc as d3Arc } from 'd3-shape'
-import { ArcGenerator, Arc } from './types'
+import { ArcGenerator, Arc } from './types.js'
 
 /**
  * Memoize a d3 arc generator.

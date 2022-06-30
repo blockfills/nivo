@@ -4,8 +4,8 @@ import { useTransition, to, SpringValue } from '@react-spring/web'
 import { useMotionConfig, useTheme } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
 import { useTooltip } from '@nivo/tooltip'
-import { ComputedDatum, CircleComponent, MouseHandlers, SwarmPlotCommonProps } from './types'
-import { useBorderWidth } from './hooks'
+import { ComputedDatum, CircleComponent, MouseHandlers, SwarmPlotCommonProps } from './types.js'
+import { useBorderWidth } from './hooks.js'
 
 /**
  * A negative radius value is invalid for an SVG circle,

@@ -1,6 +1,6 @@
-import { LegendSvgItem } from './LegendSvgItem'
-import { LegendSvgProps } from '../types'
-import { computeDimensions } from '../compute'
+import { LegendSvgItem } from './LegendSvgItem.js'
+import { LegendSvgProps } from '../types.js'
+import { computeDimensions } from '../compute.js'
 
 export const LegendSvg = ({
     data,

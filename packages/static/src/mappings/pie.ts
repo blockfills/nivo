@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Pie, PieSvgProps } from '@nivo/pie'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { OmitStrict } from '../types'
-import { custom } from './common'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { OmitStrict } from '../types.js'
+import { custom } from './common.js'
 
 export type PieApiProps = OmitStrict<
     PieSvgProps<any>,

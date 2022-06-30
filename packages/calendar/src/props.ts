@@ -1,6 +1,6 @@
 import { timeFormat } from 'd3-time-format'
-import { CalendarLegendProps } from './types'
-import { CalendarTooltip } from './CalendarTooltip'
+import { CalendarLegendProps } from './types.js'
+import { CalendarTooltip } from './CalendarTooltip.js'
 
 const monthLabelFormat = timeFormat('%b')
 

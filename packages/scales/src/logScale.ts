@@ -1,5 +1,5 @@
 import { scaleLog } from 'd3-scale'
-import { ComputedSerieAxis, ScaleAxis, ScaleLog, ScaleLogSpec } from './types'
+import { ComputedSerieAxis, ScaleAxis, ScaleLog, ScaleLogSpec } from './types.js'
 
 export const createLogScale = (
     { base = 10, min = 'auto', max = 'auto' }: ScaleLogSpec,

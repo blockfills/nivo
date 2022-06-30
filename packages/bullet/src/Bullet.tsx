@@ -1,8 +1,8 @@
 import { Container, SvgWrapper, useDimensions } from '@nivo/core'
-import { defaultProps } from './props'
-import { BulletSvgProps } from './types'
-import { BulletItem } from './BulletItem'
-import { useEnhancedData } from './hooks'
+import { defaultProps } from './props.js'
+import { BulletSvgProps } from './types.js'
+import { BulletItem } from './BulletItem.js'
+import { useEnhancedData } from './hooks.js'
 
 export const Bullet = (props: BulletSvgProps) => {
     const {

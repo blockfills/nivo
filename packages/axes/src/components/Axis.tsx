@@ -3,9 +3,9 @@ import * as React from 'react'
 import { useSpring, useTransition, animated } from '@react-spring/web'
 import { useTheme, useMotionConfig } from '@nivo/core'
 import { ScaleValue, AnyScale } from '@nivo/scales'
-import { computeCartesianTicks, getFormatter } from '../compute'
-import { AxisTick } from './AxisTick'
-import { AxisProps } from '../types'
+import { computeCartesianTicks, getFormatter } from '../compute.js'
+import { AxisTick } from './AxisTick.js'
+import { AxisProps } from '../types.js'
 
 const Axis = <Value extends ScaleValue>({
     axis,

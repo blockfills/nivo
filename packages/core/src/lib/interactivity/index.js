@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-export * from './detect'
+export * from './detect.js'
 
 export const getRelativeCursor = (el, event) => {
     const { clientX, clientY } = event

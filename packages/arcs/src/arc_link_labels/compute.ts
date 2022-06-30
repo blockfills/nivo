@@ -1,7 +1,7 @@
 import { positionFromAngle } from '@nivo/core'
-import { Arc, Point } from '../types'
-import { getNormalizedAngle } from '../utils'
-import { ArcLink } from './types'
+import { Arc, Point } from '../types.js'
+import { getNormalizedAngle } from '../utils.js'
+import { ArcLink } from './types.js'
 
 /**
  * Compute text anchor for a given arc.

@@ -4,10 +4,10 @@ import { Axis } from '@nivo/axes'
 // @ts-ignore
 import { getColorScale, useMotionConfig, useTheme } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import { stackValues } from './compute'
-import { BulletMarkers } from './BulletMarkers'
-import { BulletRects } from './BulletRects'
-import { BulletItemProps } from './types'
+import { stackValues } from './compute.js'
+import { BulletMarkers } from './BulletMarkers.js'
+import { BulletRects } from './BulletRects.js'
+import { BulletItemProps } from './types.js'
 
 export const BulletItem = ({
     id,

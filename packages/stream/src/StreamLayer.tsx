@@ -3,7 +3,7 @@ import { useSpring, animated } from '@react-spring/web'
 import { useAnimatedPath, useMotionConfig } from '@nivo/core'
 import { InheritedColorConfigCustomFunction } from '@nivo/colors'
 import { useTooltip } from '@nivo/tooltip'
-import { StreamCommonProps, StreamDatum, StreamLayerData } from './types'
+import { StreamCommonProps, StreamDatum, StreamLayerData } from './types.js'
 
 interface StreamLayerProps<RawDatum extends StreamDatum> {
     layer: StreamLayerData

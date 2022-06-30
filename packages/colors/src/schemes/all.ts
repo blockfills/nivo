@@ -2,13 +2,17 @@ import {
     categoricalColorSchemes,
     categoricalColorSchemeIds,
     CategoricalColorSchemeId,
-} from './categorical'
-import { divergingColorSchemes, divergingColorSchemeIds, DivergingColorSchemeId } from './diverging'
+} from './categorical.js'
+import {
+    divergingColorSchemes,
+    divergingColorSchemeIds,
+    DivergingColorSchemeId,
+} from './diverging.js'
 import {
     sequentialColorSchemes,
     sequentialColorSchemeIds,
     SequentialColorSchemeId,
-} from './sequential'
+} from './sequential.js'
 
 export const colorSchemes = {
     ...categoricalColorSchemes,

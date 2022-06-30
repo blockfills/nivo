@@ -1,6 +1,6 @@
 import { animated } from '@react-spring/web'
 import { useTheme } from '@nivo/core'
-import { LabelProps } from './types'
+import { LabelProps } from './types.js'
 
 export const LabelSvg = <RawDatum,>({ node, label, style }: LabelProps<RawDatum>) => {
     const theme = useTheme()

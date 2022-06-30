@@ -2,8 +2,8 @@ import { useCallback, useRef, useEffect, createElement, MouseEvent, useMemo } fr
 import { getDistance, getRelativeCursor, Container, useDimensions, useTheme } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
 import { useComputedAnnotations, renderAnnotationsToCanvas } from '@nivo/annotations'
-import { canvasDefaultProps } from './defaults'
-import { useNetwork, useNodeAnnotations } from './hooks'
+import { canvasDefaultProps } from './defaults.js'
+import { useNetwork, useNodeAnnotations } from './hooks.js'
 import {
     NetworkCanvasProps,
     InputNode,
@@ -12,7 +12,7 @@ import {
     InputLink,
     NetworkSvgProps,
     CustomLayerProps,
-} from './types'
+} from './types.js'
 
 type InnerNetworkCanvasProps<Node extends InputNode, Link extends InputLink> = Omit<
     NetworkCanvasProps<Node, Link>,

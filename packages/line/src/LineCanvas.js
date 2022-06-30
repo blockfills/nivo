@@ -18,8 +18,8 @@ import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
 import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
-import { LineCanvasPropTypes, LineCanvasDefaultProps } from './props'
-import { useLine } from './hooks'
+import { LineCanvasPropTypes, LineCanvasDefaultProps } from './props.js'
+import { useLine } from './hooks.js'
 
 const LineCanvas = ({
     width,

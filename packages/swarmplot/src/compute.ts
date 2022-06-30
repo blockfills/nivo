@@ -13,7 +13,7 @@ import {
     ScaleTime,
     ScaleTimeSpec,
 } from '@nivo/scales'
-import { ComputedDatum, PreSimulationDatum, SizeSpec, SimulationForces } from './types'
+import { ComputedDatum, PreSimulationDatum, SizeSpec, SimulationForces } from './types.js'
 
 const getParsedValue = (scaleSpec: ScaleLinearSpec | ScaleTimeSpec) => {
     if (scaleSpec.type === 'time' && scaleSpec.format !== 'native') {

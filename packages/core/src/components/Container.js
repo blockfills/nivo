@@ -9,9 +9,9 @@
 import { useRef } from 'react'
 import PropTypes from 'prop-types'
 import { TooltipProvider, Tooltip } from '@nivo/tooltip'
-import { ThemeProvider } from '../theming'
-import { MotionConfigProvider } from '../motion'
-import { ConditionalWrapper } from './ConditionalWrapper'
+import { ThemeProvider } from '../theming.js'
+import { MotionConfigProvider } from '../motion.js'
+import { ConditionalWrapper } from './ConditionalWrapper.js'
 
 const containerStyle = {
     position: 'relative',

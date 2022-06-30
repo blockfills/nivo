@@ -1,4 +1,4 @@
-export { default as withDimensions } from './withDimensions'
-export { default as withMotion } from './withMotion'
-export { default as withTheme } from './withTheme'
-export * from './withContainer'
+export { default as withDimensions } from './withDimensions.js'
+export { default as withMotion } from './withMotion.js'
+export { default as withTheme } from './withTheme.js'
+export * from './withContainer.js'

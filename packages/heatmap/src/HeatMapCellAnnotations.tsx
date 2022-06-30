@@ -1,6 +1,6 @@
 import { Annotation } from '@nivo/annotations'
-import { ComputedCell, HeatMapCommonProps, HeatMapDatum } from './types'
-import { useCellAnnotations } from './hooks'
+import { ComputedCell, HeatMapCommonProps, HeatMapDatum } from './types.js'
+import { useCellAnnotations } from './hooks.js'
 
 interface HeatMapCellAnnotationsProps<Datum extends HeatMapDatum> {
     cells: ComputedCell<Datum>[]

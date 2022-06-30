@@ -1,4 +1,4 @@
-import { InputNode, ComputedLink, InputLink } from './types'
+import { InputNode, ComputedLink, InputLink } from './types.js'
 
 export const renderCanvasLink = <Node extends InputNode, Link extends InputLink>(
     ctx: CanvasRenderingContext2D,

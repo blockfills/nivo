@@ -1,7 +1,7 @@
-import { TreeMapCommonProps, DefaultTreeMapDatum, LayerId } from './types'
-import { TreeMapNode } from './TreeMapNode'
-import { TreeMapNodeTooltip } from './TreeMapNodeTooltip'
-import { TreeMapHtmlNode } from './TreeMapHtmlNode'
+import { TreeMapCommonProps, DefaultTreeMapDatum, LayerId } from './types.js'
+import { TreeMapNode } from './TreeMapNode.js'
+import { TreeMapNodeTooltip } from './TreeMapNodeTooltip.js'
+import { TreeMapHtmlNode } from './TreeMapHtmlNode.js'
 
 export const commonDefaultProps: Omit<
     TreeMapCommonProps<DefaultTreeMapDatum>,

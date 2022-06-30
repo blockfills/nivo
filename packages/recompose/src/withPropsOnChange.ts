@@ -1,10 +1,10 @@
 import { Component, createFactory } from 'react'
 import { polyfill } from 'react-lifecycles-compat'
-import { setDisplayName } from './setDisplayName'
-import { shallowEqual } from './shallowEqual'
-import { InferableComponentEnhancerWithProps, Mapper, PredicateDiff } from './types'
-import { pick } from './utils'
-import { wrapDisplayName } from './wrapDisplayName'
+import { setDisplayName } from './setDisplayName.js'
+import { shallowEqual } from './shallowEqual.js'
+import { InferableComponentEnhancerWithProps, Mapper, PredicateDiff } from './types.js'
+import { pick } from './utils/index.js'
+import { wrapDisplayName } from './wrapDisplayName.js'
 
 export const withPropsOnChange =
     <TInner, TOuter extends Record<string, unknown>>(
@@ -42,7 +42,6 @@ export const withPropsOnChange =
             }
 
             render() {
-                // @ts-expect-error due to how factory is typed
                 return factory({
                     ...this.props,
                     ...this.state.computedProps,

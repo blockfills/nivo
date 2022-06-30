@@ -1,6 +1,6 @@
 import { NumberValue, scaleTime, scaleUtc } from 'd3-scale'
-import { createDateNormalizer } from './timeHelpers'
-import { ComputedSerieAxis, ScaleTime, ScaleTimeSpec } from './types'
+import { createDateNormalizer } from './timeHelpers.js'
+import { ComputedSerieAxis, ScaleTime, ScaleTimeSpec } from './types.js'
 
 export const createTimeScale = <Input extends Date | NumberValue>(
     {

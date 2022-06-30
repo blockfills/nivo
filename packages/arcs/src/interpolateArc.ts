@@ -1,5 +1,5 @@
 import { to, SpringValue } from '@react-spring/web'
-import { ArcGenerator } from './types'
+import { ArcGenerator } from './types.js'
 
 /**
  * Directly animating paths for arcs leads to sub-optimal results

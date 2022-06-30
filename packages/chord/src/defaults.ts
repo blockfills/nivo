@@ -1,6 +1,6 @@
-import { LayerId, ChordSvgProps, ChordCommonProps } from './types'
-import { ChordArcTooltip } from './ChordArcTooltip'
-import { ChordRibbonTooltip } from './ChordRibbonTooltip'
+import { LayerId, ChordSvgProps, ChordCommonProps } from './types.js'
+import { ChordArcTooltip } from './ChordArcTooltip.js'
+import { ChordRibbonTooltip } from './ChordRibbonTooltip.js'
 
 export const commonDefaultProps: Omit<
     ChordCommonProps,

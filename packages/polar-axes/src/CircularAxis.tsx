@@ -3,8 +3,8 @@ import { useSpring, useTransition } from '@react-spring/web'
 import { useMotionConfig, useTheme, positionFromAngle, degreesToRadians } from '@nivo/core'
 import { AnyScale, getScaleTicks } from '@nivo/scales'
 import { ArcLine } from '@nivo/arcs'
-import { CircularAxisConfig, CircularAxisTickAnimatedProps } from './types'
-import { CircularAxisTick } from './CircularAxisTick'
+import { CircularAxisConfig, CircularAxisTickAnimatedProps } from './types.js'
+import { CircularAxisTick } from './CircularAxisTick.js'
 
 type CircularAxisProps = {
     type: 'inner' | 'outer'

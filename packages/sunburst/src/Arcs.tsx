@@ -1,7 +1,7 @@
 import { createElement, useMemo } from 'react'
 import * as React from 'react'
 import { ArcGenerator, ArcsLayer } from '@nivo/arcs'
-import { ComputedDatum, SunburstCommonProps, MouseHandlers } from './types'
+import { ComputedDatum, SunburstCommonProps, MouseHandlers } from './types.js'
 import { useTooltip } from '@nivo/tooltip'
 
 interface ArcsProps<RawDatum> {

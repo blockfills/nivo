@@ -6,7 +6,7 @@ import {
     // @ts-ignore
     useMeasure,
 } from '@nivo/core'
-import { TooltipStateContextDataVisible } from './context'
+import { TooltipStateContextDataVisible } from './context.js'
 
 const TOOLTIP_OFFSET = 14
 

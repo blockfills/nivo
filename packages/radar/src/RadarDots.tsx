@@ -2,7 +2,13 @@ import { useMemo } from 'react'
 import { ScaleLinear } from 'd3-scale'
 import { useTheme, positionFromAngle, DotsItem, usePropertyAccessor } from '@nivo/core'
 import { getInheritedColorGenerator } from '@nivo/colors'
-import { RadarCommonProps, RadarDataProps, PointProps, PointData, RadarColorMapping } from './types'
+import {
+    RadarCommonProps,
+    RadarDataProps,
+    PointProps,
+    PointData,
+    RadarColorMapping,
+} from './types.js'
 
 interface RadarDotsProps<D extends Record<string, unknown>> {
     data: RadarDataProps<D>['data']

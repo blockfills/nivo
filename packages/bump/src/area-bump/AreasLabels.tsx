@@ -6,8 +6,8 @@ import {
     AreaBumpDatum,
     AreaBumpLabel,
     AreaBumpSerieExtraProps,
-} from './types'
-import { useAreaBumpSeriesLabels } from './hooks'
+} from './types.js'
+import { useAreaBumpSeriesLabels } from './hooks.js'
 
 interface AreaLabelsProps<Datum extends AreaBumpDatum, ExtraProps extends AreaBumpSerieExtraProps> {
     getLabel: Exclude<AreaBumpLabel<Datum, ExtraProps>, false>

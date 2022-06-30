@@ -6,8 +6,8 @@ import {
     ContinuousColorsLegendProps,
     LegendAnchor,
     LegendItemDirection,
-} from './types'
-import { continuousColorsLegendDefaults } from './defaults'
+} from './types.js'
+import { continuousColorsLegendDefaults } from './defaults.js'
 
 const isObject = <T>(item: unknown): item is T =>
     typeof item === 'object' && !Array.isArray(item) && item !== null

@@ -4,8 +4,8 @@ import {
     SankeyCommonProps,
     SankeyLinkDatum,
     SankeyNodeDatum,
-} from './types'
-import { SankeyNodesItem } from './SankeyNodesItem'
+} from './types.js'
+import { SankeyNodesItem } from './SankeyNodesItem.js'
 
 interface SankeyNodesProps<N extends DefaultNode, L extends DefaultLink> {
     nodes: SankeyNodeDatum<N, L>[]

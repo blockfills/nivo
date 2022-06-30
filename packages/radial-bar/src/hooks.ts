@@ -5,7 +5,7 @@ import { degreesToRadians, useValueFormatter } from '@nivo/core'
 import { Arc } from '@nivo/arcs'
 import { useOrdinalColorScale } from '@nivo/colors'
 import { castLinearScale, castBandScale, getScaleTicks } from '@nivo/scales'
-import { commonDefaultProps, svgDefaultProps } from './props'
+import { commonDefaultProps, svgDefaultProps } from './props.js'
 import {
     ComputedBar,
     RadialBarCommonProps,
@@ -13,7 +13,7 @@ import {
     RadialBarCustomLayerProps,
     RadialBarTrackDatum,
     RadialBarDatum,
-} from './types'
+} from './types.js'
 
 interface RadialBarGroup<D extends RadialBarDatum> {
     id: string

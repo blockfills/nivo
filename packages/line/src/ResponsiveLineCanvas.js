@@ -8,7 +8,7 @@
  */
 import { forwardRef } from 'react'
 import { ResponsiveWrapper } from '@nivo/core'
-import LineCanvas from './LineCanvas'
+import LineCanvas from './LineCanvas.js'
 
 const ResponsiveLineCanvas = (props, ref) => (
     <ResponsiveWrapper>

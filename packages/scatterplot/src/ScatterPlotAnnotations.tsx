@@ -1,6 +1,6 @@
 import { Annotation } from '@nivo/annotations'
-import { useScatterPlotAnnotations } from './hooks'
-import { ScatterPlotCommonProps, ScatterPlotDatum, ScatterPlotNodeData } from './types'
+import { useScatterPlotAnnotations } from './hooks.js'
+import { ScatterPlotCommonProps, ScatterPlotDatum, ScatterPlotNodeData } from './types.js'
 
 interface ScatterPlotAnnotationsProps<RawDatum extends ScatterPlotDatum> {
     nodes: ScatterPlotNodeData<RawDatum>[]

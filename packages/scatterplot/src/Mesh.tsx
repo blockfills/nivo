@@ -1,7 +1,7 @@
 import { createElement, useCallback } from 'react'
 import { useTooltip } from '@nivo/tooltip'
 import { Mesh as BaseMesh } from '@nivo/voronoi'
-import { ScatterPlotCommonProps, ScatterPlotDatum, ScatterPlotNodeData } from './types'
+import { ScatterPlotCommonProps, ScatterPlotDatum, ScatterPlotNodeData } from './types.js'
 
 interface MeshProps<RawDatum extends ScatterPlotDatum> {
     nodes: ScatterPlotNodeData<RawDatum>[]

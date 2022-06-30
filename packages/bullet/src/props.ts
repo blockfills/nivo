@@ -1,7 +1,7 @@
-import { BulletMarkersItem } from './BulletMarkersItem'
-import { BulletRectsItem } from './BulletRectsItem'
+import { BulletMarkersItem } from './BulletMarkersItem.js'
+import { BulletRectsItem } from './BulletRectsItem.js'
 import { motionDefaultProps, defaultMargin } from '@nivo/core'
-import { BulletTooltip } from './BulletTooltip'
+import { BulletTooltip } from './BulletTooltip.js'
 
 export const defaultProps = {
     layout: 'horizontal',

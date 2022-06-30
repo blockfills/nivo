@@ -1,9 +1,9 @@
 import { useCallback } from 'react'
 import { PropertyAccessor, usePropertyAccessor, useTheme } from '@nivo/core'
 import { InheritedColorConfig, useInheritedColor } from '@nivo/colors'
-import { DatumWithArcAndColor } from '../types'
-import { ArcLinkWithDatum, ArcLinkLabel } from './types'
-import { useArcLinks } from './useArcLinks'
+import { DatumWithArcAndColor } from '../types.js'
+import { ArcLinkWithDatum, ArcLinkLabel } from './types.js'
+import { useArcLinks } from './useArcLinks.js'
 
 /**
  * Compute arc link labels, please note that the datum should

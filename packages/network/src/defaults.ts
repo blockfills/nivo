@@ -1,9 +1,9 @@
-import { NetworkCommonProps, InputNode, LayerId, NetworkSvgProps, InputLink } from './types'
-import { NetworkNode } from './NetworkNode'
-import { renderCanvasNode } from './renderCanvasNode'
-import { NetworkLink } from './NetworkLink'
-import { renderCanvasLink } from './renderCanvasLink'
-import { NetworkNodeTooltip } from './NetworkNodeTooltip'
+import { NetworkCommonProps, InputNode, LayerId, NetworkSvgProps, InputLink } from './types.js'
+import { NetworkNode } from './NetworkNode.js'
+import { renderCanvasNode } from './renderCanvasNode.js'
+import { NetworkLink } from './NetworkLink.js'
+import { renderCanvasLink } from './renderCanvasLink.js'
+import { NetworkNodeTooltip } from './NetworkNodeTooltip.js'
 
 export const commonDefaultProps: Omit<
     NetworkCommonProps<InputNode, InputLink>,

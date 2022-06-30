@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { radiansToDegrees, positionFromAngle, degreesToRadians } from '@nivo/core'
-import { DatumWithArc } from './types'
+import { DatumWithArc } from './types.js'
 
 /**
  * Make sure an angle (expressed in radians)

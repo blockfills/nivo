@@ -15,7 +15,7 @@ import {
     CirclePackingCustomLayerProps,
     ComputedDatum,
     MouseHandlers,
-} from './types'
+} from './types.js'
 
 export const useCirclePacking = <RawDatum>({
     data,

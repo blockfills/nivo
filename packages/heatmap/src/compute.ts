@@ -6,7 +6,7 @@ import {
     HeatMapDataProps,
     HeatMapDatum,
     SizeVariationConfig,
-} from './types'
+} from './types.js'
 
 export const computeLayout = ({
     width: _width,

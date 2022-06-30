@@ -1,5 +1,5 @@
 import { createElement } from 'react'
-import { StreamSvgProps, StreamLayerDatum, StreamDatum } from './types'
+import { StreamSvgProps, StreamLayerDatum, StreamDatum } from './types.js'
 
 interface StreamDotsProps<RawDatum extends StreamDatum> {
     id: string | number

@@ -9,8 +9,8 @@
 import { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { motionPropTypes } from '@nivo/core'
-import ParallelCoordinatesAxisDensityCircles from './ParallelCoordinatesAxisDensityCircles'
-import ParallelCoordinatesAxisDensityPoly from './ParallelCoordinatesAxisDensityPoly'
+import ParallelCoordinatesAxisDensityCircles from './ParallelCoordinatesAxisDensityCircles.js'
+import ParallelCoordinatesAxisDensityPoly from './ParallelCoordinatesAxisDensityPoly.js'
 
 export default class ParallelCoordinatesAxisDensity extends PureComponent {
     static propTypes = {

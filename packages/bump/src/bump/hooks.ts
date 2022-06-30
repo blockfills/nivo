@@ -14,8 +14,8 @@ import {
     BumpLabel,
     BumpLabelData,
     BumpSerieExtraProps,
-} from './types'
-import { computeSeries } from './compute'
+} from './types.js'
+import { computeSeries } from './compute.js'
 
 const useLineGenerator = (interpolation: BumpInterpolation) =>
     useMemo(

@@ -1,7 +1,7 @@
 import { createElement, useMemo } from 'react'
 import { useTransition } from '@react-spring/web'
 import { useMotionConfig } from '@nivo/core'
-import { ComputedLink, InputLink, InputNode, LinkComponent, NetworkSvgProps } from './types'
+import { ComputedLink, InputLink, InputNode, LinkComponent, NetworkSvgProps } from './types.js'
 
 interface NetworkLinksProps<Node extends InputNode, Link extends InputLink> {
     links: ComputedLink<Node, Link>[]

@@ -11,10 +11,16 @@ import {
     useValueFormatter,
 } from '@nivo/core'
 import { renderLegendToCanvas } from '@nivo/legends'
-import { calendarCanvasDefaultProps } from './props'
-import { useCalendarLayout, useColorScale, useMonthLegends, useYearLegends, useDays } from './hooks'
+import { calendarCanvasDefaultProps } from './props.js'
+import {
+    useCalendarLayout,
+    useColorScale,
+    useMonthLegends,
+    useYearLegends,
+    useDays,
+} from './hooks.js'
 import { useTooltip } from '@nivo/tooltip'
-import { CalendarCanvasProps } from './types'
+import { CalendarCanvasProps } from './types.js'
 
 const findDayUnderCursor = (
     event: React.MouseEvent,

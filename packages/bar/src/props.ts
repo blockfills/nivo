@@ -1,6 +1,6 @@
-import { BarItem } from './BarItem'
-import { BarTooltip } from './BarTooltip'
-import { ComputedDatum } from './types'
+import { BarItem } from './BarItem.js'
+import { BarTooltip } from './BarTooltip.js'
+import { ComputedDatum } from './types.js'
 import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
 import { ScaleBandSpec, ScaleSpec } from '@nivo/scales'
 

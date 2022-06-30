@@ -1,11 +1,11 @@
 import { FunctionComponent } from 'react'
 import Joi from 'joi'
 import { Radar, RadarSvgProps } from '@nivo/radar'
-import { blendMode, custom } from './common'
-import { ordinalColors, inheritedColor } from './commons/colors'
-import { dimensions } from './commons/dimensions'
-import { closedCurve } from './commons/curves'
-import { OmitStrict } from '../types'
+import { blendMode, custom } from './common.js'
+import { ordinalColors, inheritedColor } from './commons/colors.js'
+import { dimensions } from './commons/dimensions.js'
+import { closedCurve } from './commons/curves.js'
+import { OmitStrict } from '../types.js'
 
 export type RadarApiProps = OmitStrict<
     RadarSvgProps<any>,

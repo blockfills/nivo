@@ -1,4 +1,4 @@
-import { CalendarMonthPathProps } from './types'
+import { CalendarMonthPathProps } from './types.js'
 import { memo } from 'react'
 
 export const CalendarMonthPath = memo(

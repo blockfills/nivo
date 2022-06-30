@@ -3,9 +3,9 @@ import { SpringValue, useTransition, to } from '@react-spring/web'
 import { line } from 'd3-shape'
 import { useMotionConfig, useTheme } from '@nivo/core'
 import { InheritedColorConfig, useInheritedColor } from '@nivo/colors'
-import { DatumWithArcAndColor, Point } from '../types'
-import { useFilteredDataBySkipAngle } from '../utils'
-import { computeArcLink, computeArcLinkTextAnchor } from './compute'
+import { DatumWithArcAndColor, Point } from '../types.js'
+import { useFilteredDataBySkipAngle } from '../utils.js'
+import { computeArcLink, computeArcLinkTextAnchor } from './compute.js'
 
 const lineGenerator = line<Point>()
     .x(d => d.x)

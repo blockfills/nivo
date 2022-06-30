@@ -1,12 +1,12 @@
 import { createElement, Fragment, ReactNode } from 'react'
 import { Container, SvgWrapper, useDimensions } from '@nivo/core'
 import { BoxLegendSvg } from '@nivo/legends'
-import { svgDefaultProps } from './defaults'
-import { useChord, useChordSelection, useCustomLayerProps } from './hooks'
-import { ChordRibbons } from './ChordRibbons'
-import { ChordArcs } from './ChordArcs'
-import { ChordLabels } from './ChordLabels'
-import { ChordSvgProps, LayerId } from './types'
+import { svgDefaultProps } from './defaults.js'
+import { useChord, useChordSelection, useCustomLayerProps } from './hooks.js'
+import { ChordRibbons } from './ChordRibbons.js'
+import { ChordArcs } from './ChordArcs.js'
+import { ChordLabels } from './ChordLabels.js'
+import { ChordSvgProps, LayerId } from './types.js'
 
 type InnerChordProps = Omit<ChordSvgProps, 'animate' | 'motionConfig' | 'renderWrapper' | 'theme'>
 

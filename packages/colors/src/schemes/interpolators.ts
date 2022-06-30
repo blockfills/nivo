@@ -1,6 +1,6 @@
-import { divergingColorInterpolators, DivergingColorInterpolatorId } from './diverging'
-import { sequentialColorInterpolators, SequentialColorInterpolatorId } from './sequential'
-import { cyclicalColorInterpolators, CyclicalColorInterpolatorId } from './cyclical'
+import { divergingColorInterpolators, DivergingColorInterpolatorId } from './diverging.js'
+import { sequentialColorInterpolators, SequentialColorInterpolatorId } from './sequential.js'
+import { cyclicalColorInterpolators, CyclicalColorInterpolatorId } from './cyclical.js'
 
 export const colorInterpolators = {
     ...divergingColorInterpolators,

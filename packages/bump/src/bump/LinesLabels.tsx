@@ -1,8 +1,8 @@
 import { useSprings, animated } from '@react-spring/web'
 import { useTheme, useMotionConfig } from '@nivo/core'
 import { InheritedColorConfig } from '@nivo/colors'
-import { BumpComputedSerie, BumpDatum, BumpLabel, BumpSerieExtraProps } from './types'
-import { useBumpSeriesLabels } from './hooks'
+import { BumpComputedSerie, BumpDatum, BumpLabel, BumpSerieExtraProps } from './types.js'
+import { useBumpSeriesLabels } from './hooks.js'
 
 interface LineLabelsProps<Datum extends BumpDatum, ExtraProps extends BumpSerieExtraProps> {
     series: BumpComputedSerie<Datum, ExtraProps>[]

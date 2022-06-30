@@ -8,8 +8,14 @@ import {
     usePropertyAccessor,
 } from '@nivo/core'
 import { OrdinalColorScaleConfig, useOrdinalColorScale } from '@nivo/colors'
-import { defaultProps } from './props'
-import { CompletePieSvgProps, ComputedDatum, DatumId, PieArc, PieCustomLayerProps } from './types'
+import { defaultProps } from './props.js'
+import {
+    CompletePieSvgProps,
+    ComputedDatum,
+    DatumId,
+    PieArc,
+    PieCustomLayerProps,
+} from './types.js'
 
 interface MayHaveLabel {
     label?: string | number

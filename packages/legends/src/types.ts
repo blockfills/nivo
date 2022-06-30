@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { ScaleDiverging, ScaleQuantize, ScaleSequential } from 'd3-scale'
 import { CompleteTheme, ValueFormat } from '@nivo/core'
-import { SymbolProps } from './svg/symbols/types'
+import { SymbolProps } from './svg/symbols/types.js'
 
 /**
  * This can be used to add effect on legends on interaction.

@@ -1,5 +1,5 @@
 import { BasicTooltip } from '@nivo/tooltip'
-import { DefaultLink, DefaultNode, SankeyNodeDatum } from './types'
+import { DefaultLink, DefaultNode, SankeyNodeDatum } from './types.js'
 
 export interface SankeyNodeTooltipProps<N extends DefaultNode, L extends DefaultLink> {
     node: SankeyNodeDatum<N, L>

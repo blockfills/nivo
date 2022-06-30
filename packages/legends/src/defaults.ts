@@ -1,4 +1,4 @@
-import { ContinuousColorsLegendProps } from './types'
+import { ContinuousColorsLegendProps } from './types.js'
 
 export const continuousColorsLegendDefaults: {
     length: NonNullable<ContinuousColorsLegendProps['length']>

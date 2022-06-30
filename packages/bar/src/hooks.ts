@@ -8,9 +8,9 @@ import {
     ComputedBarDatumWithValue,
     LegendData,
     BarLegendProps,
-} from './types'
-import { defaultProps } from './props'
-import { generateGroupedBars, generateStackedBars, getLegendData } from './compute'
+} from './types.js'
+import { defaultProps } from './props.js'
+import { generateGroupedBars, generateStackedBars, getLegendData } from './compute/index.js'
 
 export const useBar = <RawDatum extends BarDatum>({
     indexBy = defaultProps.indexBy,
@@ -72,9 +72,10 @@ export const useBar = <RawDatum extends BarDatum>({
     legendLabel?: BarCommonProps<RawDatum>['legendLabel']
 }) => {
     const [hiddenIds, setHiddenIds] = useState(initialHiddenIds ?? [])
-    const toggleSerie = useCallback(id => {
+    const toggleSerie = useCallback((id: string | number) => {
+        const id_ = String(id)
         setHiddenIds(state =>
-            state.indexOf(id) > -1 ? state.filter(item => item !== id) : [...state, id]
+            state.indexOf(id_) > -1 ? state.filter(item => item !== id_) : [...state, id_]
         )
     }, [])
 

@@ -1,6 +1,6 @@
 import { ResponsiveWrapper, Dimensions } from '@nivo/core'
-import { BulletSvgProps } from './types'
-import { Bullet } from './Bullet'
+import { BulletSvgProps } from './types.js'
+import { Bullet } from './Bullet.js'
 
 export const ResponsiveBullet = (props: Omit<BulletSvgProps, 'height' | 'width'>) => (
     <ResponsiveWrapper>

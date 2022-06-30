@@ -3,14 +3,14 @@ import * as React from 'react'
 import { useDimensions, useTheme, Container } from '@nivo/core'
 import { InheritedColorConfig, OrdinalColorScaleConfig, useInheritedColor } from '@nivo/colors'
 import { useTooltip } from '@nivo/tooltip'
-import { CirclePackingCanvasProps, ComputedDatum } from './types'
-import { defaultProps } from './props'
+import { CirclePackingCanvasProps, ComputedDatum } from './types.js'
+import { defaultProps } from './props.js'
 import {
     useCirclePacking,
     useCirclePackingZoom,
     useCirclePackingLabels,
     useMouseCircleDetection,
-} from './hooks'
+} from './hooks.js'
 
 type InnerCirclePackingCanvasProps<RawDatum> = Partial<
     Omit<

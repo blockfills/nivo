@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { TableTooltip, Chip } from '@nivo/tooltip'
-import { RadarSliceTooltipProps } from './types'
+import { RadarSliceTooltipProps } from './types.js'
 
 export const RadarSliceTooltip = ({ index, data }: RadarSliceTooltipProps) => {
     const rows = useMemo(

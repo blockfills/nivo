@@ -11,7 +11,7 @@ import {
 import { useTheme, useValueFormatter, PropertyAccessor, usePropertyAccessor } from '@nivo/core'
 import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
 import { useTooltip } from '@nivo/tooltip'
-import { commonDefaultProps } from './defaults'
+import { commonDefaultProps } from './defaults.js'
 import {
     DefaultTreeMapDatum,
     TreeMapCommonProps,
@@ -20,8 +20,8 @@ import {
     ComputedNodeWithoutStyles,
     ComputedNodeWithHandlers,
     CustomLayerProps,
-} from './types'
-import { tileByType } from './tiling'
+} from './types.js'
+import { tileByType } from './tiling.js'
 
 export const useTreeMapLayout = <Datum extends object>({
     width,

@@ -9,8 +9,8 @@
 import { withDimensions, withTheme, withMotion, bindDefs } from '@nivo/core'
 import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
 import { compose, defaultProps, withPropsOnChange, withState, pure } from '@nivo/recompose'
-import * as props from './props'
-import { computeGrid } from './compute'
+import * as props from './props.js'
+import { computeGrid } from './compute.js'
 
 const commonEnhancers = [
     withDimensions(),

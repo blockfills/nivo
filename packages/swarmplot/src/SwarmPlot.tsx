@@ -4,12 +4,12 @@ import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
 import { AnyScale } from '@nivo/scales'
 import { Axes, Grid } from '@nivo/axes'
 import { Mesh } from '@nivo/voronoi'
-import { ComputedDatum, SwarmPlotLayerId, SwarmPlotSvgProps } from './types'
-import { defaultProps } from './props'
-import { useSwarmPlot, useSwarmPlotLayerContext, useNodeMouseHandlers } from './hooks'
-import { Circles } from './Circles'
-import { CircleSvg } from './CircleSvg'
-import { SwarmPlotAnnotations } from './SwarmPlotAnnotations'
+import { ComputedDatum, SwarmPlotLayerId, SwarmPlotSvgProps } from './types.js'
+import { defaultProps } from './props.js'
+import { useSwarmPlot, useSwarmPlotLayerContext, useNodeMouseHandlers } from './hooks.js'
+import { Circles } from './Circles.js'
+import { CircleSvg } from './CircleSvg.js'
+import { SwarmPlotAnnotations } from './SwarmPlotAnnotations.js'
 
 type InnerSwarmPlotProps<RawDatum> = Partial<
     Omit<

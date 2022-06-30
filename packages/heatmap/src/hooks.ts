@@ -9,14 +9,14 @@ import {
     HeatMapDataProps,
     HeatMapDatum,
     SizeVariationConfig,
-} from './types'
-import { commonDefaultProps } from './defaults'
+} from './types.js'
+import { commonDefaultProps } from './defaults.js'
 import {
     computeCells,
     computeSizeScale,
     getCellAnnotationPosition,
     getCellAnnotationDimensions,
-} from './compute'
+} from './compute.js'
 
 export const useComputeCells = <Datum extends HeatMapDatum, ExtraProps extends object>({
     data,

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { colorSchemeIds } from './schemes'
+import { colorSchemeIds } from './schemes/index.js'
 
 export const ordinalColorsPropType = PropTypes.oneOfType([
     PropTypes.func,

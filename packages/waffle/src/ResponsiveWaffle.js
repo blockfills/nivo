@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { ResponsiveWrapper } from '@nivo/core'
-import Waffle from './Waffle'
+import Waffle from './Waffle.js'
 
 const ResponsiveWaffle = props => (
     <ResponsiveWrapper>

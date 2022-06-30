@@ -1,3 +1,3 @@
-export * from './grouped'
-export * from './stacked'
-export * from './legends'
+export * from './grouped.js'
+export * from './stacked.js'
+export * from './legends.js'

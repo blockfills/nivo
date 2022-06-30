@@ -1,6 +1,6 @@
 import { timeWeek, timeDays, timeDay } from 'd3-time'
 import { timeFormat } from 'd3-time-format'
-import { DateOrString } from '../types'
+import { DateOrString } from '../types.js'
 import { isDate } from 'lodash'
 
 // Interfaces

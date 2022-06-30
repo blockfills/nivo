@@ -1,6 +1,6 @@
 import { Annotation } from '@nivo/annotations'
-import { ComputedNode, InputLink, InputNode, NetworkSvgProps } from './types'
-import { useNodeAnnotations } from './hooks'
+import { ComputedNode, InputLink, InputNode, NetworkSvgProps } from './types.js'
+import { useNodeAnnotations } from './hooks.js'
 
 interface NetworkNodeAnnotationsProps<Node extends InputNode, Link extends InputLink> {
     nodes: ComputedNode<Node>[]

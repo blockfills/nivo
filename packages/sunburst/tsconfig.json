@@ -1,8 +1,5 @@
 {
-  "extends": "../../tsconfig.types.json",
-  "compilerOptions": {
-    "outDir": "./dist/types",
-    "rootDir": "./src"
-  },
-  "include": ["src/**/*"]
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "rootDir": "./src", "outDir": "./dist" },
+  "references": [{ "path": "../arcs" }, { "path": "../colors" }, { "path": "../tooltip" }]
 }

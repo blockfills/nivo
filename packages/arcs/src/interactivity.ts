@@ -1,5 +1,5 @@
 import { getDistance, getAngle } from '@nivo/core'
-import { Arc } from './types'
+import { Arc } from './types.js'
 
 /**
  * Check if cursor is in given ring.

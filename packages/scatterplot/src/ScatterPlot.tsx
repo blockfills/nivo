@@ -2,12 +2,12 @@ import { createElement, Fragment, ReactNode, useMemo } from 'react'
 import { SvgWrapper, Container, useDimensions, CartesianMarkers } from '@nivo/core'
 import { Axes, Grid } from '@nivo/axes'
 import { BoxLegendSvg } from '@nivo/legends'
-import { useScatterPlot } from './hooks'
-import { svgDefaultProps } from './props'
-import { ScatterPlotAnnotations } from './ScatterPlotAnnotations'
-import { Nodes } from './Nodes'
-import { Mesh } from './Mesh'
-import { ScatterPlotDatum, ScatterPlotLayerId, ScatterPlotSvgProps } from './types'
+import { useScatterPlot } from './hooks.js'
+import { svgDefaultProps } from './props.js'
+import { ScatterPlotAnnotations } from './ScatterPlotAnnotations.js'
+import { Nodes } from './Nodes.js'
+import { Mesh } from './Mesh.js'
+import { ScatterPlotDatum, ScatterPlotLayerId, ScatterPlotSvgProps } from './types.js'
 
 type InnerScatterPlotProps<RawDatum extends ScatterPlotDatum> = Omit<
     ScatterPlotSvgProps<RawDatum>,

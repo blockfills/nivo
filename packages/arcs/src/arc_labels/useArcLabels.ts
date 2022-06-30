@@ -1,8 +1,8 @@
 import { useCallback } from 'react'
 import { PropertyAccessor, usePropertyAccessor, useTheme } from '@nivo/core'
 import { InheritedColorConfig, useInheritedColor } from '@nivo/colors'
-import { DatumWithArcAndColor } from '../types'
-import { useArcCenters, ArcCenter } from '../centers'
+import { DatumWithArcAndColor } from '../types.js'
+import { useArcCenters, ArcCenter } from '../centers.js'
 
 export interface ArcLabel<Datum extends DatumWithArcAndColor> extends ArcCenter<Datum> {
     label: string

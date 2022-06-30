@@ -10,8 +10,8 @@ import { memo, useRef, useEffect, useCallback } from 'react'
 import { geoContains } from 'd3-geo'
 import { getRelativeCursor, withContainer, useDimensions, useTheme } from '@nivo/core'
 import { useTooltip } from '@nivo/tooltip'
-import { GeoMapCanvasDefaultProps, GeoMapCanvasPropTypes } from './props'
-import { useGeoMap } from './hooks'
+import { GeoMapCanvasDefaultProps, GeoMapCanvasPropTypes } from './props.js'
+import { useGeoMap } from './hooks.js'
 
 const getFeatureFromMouseEvent = (event, el, features, projection) => {
     const [x, y] = getRelativeCursor(el, event)

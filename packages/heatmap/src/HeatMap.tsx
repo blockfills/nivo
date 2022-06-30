@@ -9,11 +9,11 @@ import {
     HeatMapSvgProps,
     LayerId,
     CustomLayerProps,
-} from './types'
-import { useHeatMap } from './hooks'
-import { svgDefaultProps } from './defaults'
-import { HeatMapCells } from './HeatMapCells'
-import { HeatMapCellAnnotations } from './HeatMapCellAnnotations'
+} from './types.js'
+import { useHeatMap } from './hooks.js'
+import { svgDefaultProps } from './defaults.js'
+import { HeatMapCells } from './HeatMapCells.js'
+import { HeatMapCellAnnotations } from './HeatMapCellAnnotations.js'
 
 type InnerHeatMapProps<Datum extends HeatMapDatum, ExtraProps extends object> = Omit<
     HeatMapSvgProps<Datum, ExtraProps>,
