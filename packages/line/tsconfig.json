@@ -5,6 +5,7 @@
     { "path": "../annotations" },
     { "path": "../axes" },
     { "path": "../colors" },
+    { "path": "../core" },
     { "path": "../legends" },
     { "path": "../scales" },
     { "path": "../tooltip" },
