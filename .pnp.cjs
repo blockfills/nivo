@@ -6833,7 +6833,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-delaunay", "npm:5.3.1"],\
             ["@types/d3-scale", "npm:3.3.2"],\
             ["@types/nivo__core", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.14"],\
             ["d3-delaunay", "npm:5.3.0"],\
             ["d3-scale", "npm:3.3.0"],\
             ["react", null],\
@@ -6842,7 +6842,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@nivo/core",\
             "@types/nivo__core",\
-            "@types/react",\
             "react"\
           ],\
           "linkType": "SOFT"\
@@ -6855,7 +6854,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-delaunay", "npm:5.3.1"],\
             ["@types/d3-scale", "npm:3.3.2"],\
             ["@types/nivo__core", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.14"],\
             ["d3-delaunay", "npm:5.3.0"],\
             ["d3-scale", "npm:3.3.0"],\
             ["react", null],\
@@ -6864,7 +6863,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@nivo/core",\
             "@types/nivo__core",\
-            "@types/react",\
             "react"\
           ],\
           "linkType": "SOFT"\
@@ -6877,7 +6875,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-delaunay", "npm:5.3.1"],\
             ["@types/d3-scale", "npm:3.3.2"],\
             ["@types/nivo__core", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.14"],\
             ["d3-delaunay", "npm:5.3.0"],\
             ["d3-scale", "npm:3.3.0"],\
             ["react", null],\
@@ -6886,7 +6884,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@nivo/core",\
             "@types/nivo__core",\
-            "@types/react",\
             "react"\
           ],\
           "linkType": "SOFT"\
@@ -6899,7 +6896,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-delaunay", "npm:5.3.1"],\
             ["@types/d3-scale", "npm:3.3.2"],\
             ["@types/nivo__core", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.0.14"],\
             ["d3-delaunay", "npm:5.3.0"],\
             ["d3-scale", "npm:3.3.0"],\
             ["react", null],\
@@ -6908,7 +6905,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@nivo/core",\
             "@types/nivo__core",\
-            "@types/react",\
             "react"\
           ],\
           "linkType": "SOFT"\
@@ -6920,6 +6916,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nivo/core", "virtual:91ef90b5bba25d5241de63dc623653a85ec6a575e13830517dda93f6373e88d530eaf9f5db5bcb792a2a612b0243cd9c496a06a1bd0b3a7accdb9ff9ae3bda39#workspace:packages/core"],\
             ["@types/d3-delaunay", "npm:5.3.1"],\
             ["@types/d3-scale", "npm:3.3.2"],\
+            ["@types/react", "npm:18.0.14"],\
             ["d3-delaunay", "npm:5.3.0"],\
             ["d3-scale", "npm:3.3.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\

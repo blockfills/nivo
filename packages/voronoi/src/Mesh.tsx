@@ -52,7 +52,7 @@ export const Mesh = <Datum,>({
     }, [debug, voronoi])
 
     const getIndexAndNodeFromEvent = useCallback(
-        event => {
+        (event: React.MouseEvent) => {
             if (!elementRef.current) {
                 return [null, null]
             }
