@@ -103,6 +103,7 @@ declare module '@nivo/line' {
 
     export interface PointTooltipProps {
         point: Point
+        points: Point[]
     }
     export type PointTooltip = React.FunctionComponent<PointTooltipProps>
 

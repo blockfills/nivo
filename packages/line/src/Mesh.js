@@ -29,27 +29,27 @@ const Mesh = ({
     const handleMouseEnter = useCallback(
         (point, event) => {
             showTooltipAt(
-                createElement(tooltip, { point }),
+                createElement(tooltip, { point, points }),
                 [point.x + margin.left, point.y + margin.top],
                 'top'
             )
             setCurrent(point)
             onMouseEnter && onMouseEnter(point, event)
         },
-        [setCurrent, showTooltipAt, tooltip, onMouseEnter, margin]
+        [setCurrent, showTooltipAt, tooltip, onMouseEnter, margin, points]
     )
 
     const handleMouseMove = useCallback(
         (point, event) => {
             showTooltipAt(
-                createElement(tooltip, { point }),
+                createElement(tooltip, { point, points }),
                 [point.x + margin.left, point.y + margin.top],
                 'top'
             )
             setCurrent(point)
             onMouseMove && onMouseMove(point, event)
         },
-        [setCurrent, showTooltipAt, tooltip, onMouseMove]
+        [setCurrent, showTooltipAt, tooltip, onMouseMove, margin, points]
     )
 
     const handleMouseLeave = useCallback(
