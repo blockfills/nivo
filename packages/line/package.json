@@ -15,14 +15,18 @@
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "default": "./src/index.js"
+      "default": "./dist/index.js"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "src",
+    "dist",
     "index.d.ts"
   ],
+  "scripts": {
+    "build": "tsc --build",
+    "prepack": "yarn run build"
+  },
   "dependencies": {
     "@nivo/annotations": "workspace:*",
     "@nivo/axes": "workspace:*",
