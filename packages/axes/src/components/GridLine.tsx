@@ -22,6 +22,10 @@ export const GridLine = memo(
                     ...animatedProps,
                     ...theme.grid.line,
                 }}
+                x1={animatedProps.x1}
+                x2={animatedProps.x2}
+                y1={animatedProps.y1}
+                y2={animatedProps.y2}
             />
         )
     }
